@@ -46,7 +46,7 @@
     <Compile Include="Images\EmbeddedImages.xaml.cs">
       <DependentUpon>EmbeddedImages.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MarkupExtensions\EmbeddedResouce.cs" />
+    <Compile Include="MarkupExtensions\EmbeddedResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

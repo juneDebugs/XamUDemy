@@ -4,14 +4,14 @@ using Xamarin.Forms;
 
 namespace XamUDemy
 {
-    [ContentProperty("ResouceID")]
-    public class EmbeddedResouce : IMarkupExtension
+    //[ContentProperty("ResourceID")]
+    public class EmbeddedResource : IMarkupExtension
     {
-        public string ResourceID { get; private set; }
+        public string ResourceID { get; set; }
 
         public object ProvideValue(IServiceProvider serviceProvider)
         {
-            if (string.IsNullOrWhiteSpace(ResourceID))
+            if (String.IsNullOrWhiteSpace(ResourceID))
                 return null;
             
             return ImageSource.FromResource(ResourceID);
