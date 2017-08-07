@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="XamUDemy.EmbeddedImages">
+<ContentPage 
+        xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:local="XamUDemy"
+        x:Class="XamUDemy.EmbeddedImages">
 
-    <Image Source="{EmbeddedResouce=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
+    <Image Source="{EmbeddedResouce ResourceID=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
 
-    
 </ContentPage>
