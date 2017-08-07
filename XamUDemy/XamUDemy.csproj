@@ -33,6 +33,7 @@
     <EmbeddedResource Include="Images\EmbeddedImages.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ResourceImages\jordan.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -59,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="ResourceImages\jordan.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />

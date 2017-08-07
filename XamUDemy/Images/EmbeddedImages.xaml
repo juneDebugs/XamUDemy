@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="XamUDemy.EmbeddedImages">
 
-    <Image x:Name="image" Aspect="AspectFill" />
+    <Image Source="{EmbeddedResouce=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
 
     
 </ContentPage>
