@@ -5,6 +5,6 @@
         xmlns:local="XamUDemy"
         x:Class="XamUDemy.EmbeddedImages">
 
-    <Image Source="{EmbeddedResouce ResourceID=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
+    <Image Source="{local: EmbeddedResouce XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
 
 </ContentPage>

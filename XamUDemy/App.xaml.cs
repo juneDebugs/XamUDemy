@@ -8,7 +8,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new XamUDemyPage();
+            MainPage = new EmbeddedImages();
         }
 
         protected override void OnStart()
