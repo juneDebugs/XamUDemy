@@ -1,10 +1,15 @@
 ﻿using System;
+using Xamarin.Forms.Xaml;
 namespace XamUDemy
 {
-    public class EmbeddedResouce
+    public class EmbeddedResouce : IMarkupExtension
     {
-        public EmbeddedResouce()
+        
+        public object ProvideValue(IServiceProvider serviceProvider)
         {
+            throw new NotImplementedException();
         }
+
+
     }
 }
