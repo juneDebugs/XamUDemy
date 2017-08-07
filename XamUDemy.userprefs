@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/App.xaml">
     <Files>
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="6" Column="27" />
-      <File FileName="XamUDemy/MarkupExtensions/EmbeddedResource.cs" Line="10" Column="33" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="19" Column="42" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml.cs" Line="12" Column="26" />
+      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="14" Column="1" NotebookId="1" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedResource.cs" Line="11" Column="9" NotebookId="1" />
+      <File FileName="XamUDemy/Images/EmbeddedImages.xaml.cs" Line="12" Column="26" NotebookId="1" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="19" Column="42" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/junecho/Projects/XamUDemy/XamUDemy/Images/EmbeddedImages.xaml" relfile="XamUDemy/Images/EmbeddedImages.xaml" line="2" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.XamUDemy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D55B962-E338-45AC-8B37-EA7B0F3EC530" />
