@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms;
 namespace XamUDemy
 {
     public class EmbeddedResouce : IMarkupExtension
@@ -7,7 +8,7 @@ namespace XamUDemy
         
         public object ProvideValue(IServiceProvider serviceProvider)
         {
-            throw new NotImplementedException();
+            return ImageSource.FromResource(ResourceID);
         }
 
 
