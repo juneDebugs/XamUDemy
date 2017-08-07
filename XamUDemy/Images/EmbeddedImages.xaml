@@ -5,6 +5,7 @@
         xmlns:local="clr-namespace:XamUDemy.MarkupExtensions"
         x:Class="XamUDemy.EmbeddedImages">
 
+    
     <Image Source="{local:EmbeddedResource ResourceID=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFill" />
 
 </ContentPage>
