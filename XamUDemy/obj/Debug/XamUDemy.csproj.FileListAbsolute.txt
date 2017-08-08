@@ -17,3 +17,4 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Images.EmbeddedImages.xaml.g.cs
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.dll
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csprojResolveAssemblyReference.cache
