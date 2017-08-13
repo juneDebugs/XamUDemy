@@ -8,12 +8,14 @@
         HorizontalOptions="Center" 
         VerticalOptions="Center">
 
-           <Label 
-                Text="Do More" />
-            <Slider/>
+            <Label 
+                Text="Do More" 
+                x:Name="label"/>
+
+            <Slider
+                ValueChanged="Handle_ValueChanged"
+                x:Name="slider"/>
 
     </StackLayout>
-
-    
 </ContentPage>
 

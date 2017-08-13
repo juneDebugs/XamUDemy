@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using XamUDemy.Pages;
+using XamUDemy.Layouts;
 
 namespace XamUDemy
 {
@@ -9,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ButtonPage();
+            MainPage = new Layouts.StackLayout();
         }
 
         protected override void OnStart()
