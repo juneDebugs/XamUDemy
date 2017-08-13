@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/MarkupExtensions/EmbeddedResource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/App.xaml.cs">
     <Files>
       <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="14" Column="1" />
-      <File FileName="XamUDemy/MarkupExtensions/EmbeddedResource.cs" Line="11" Column="9" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedResource.cs" Line="10" Column="47" />
       <File FileName="XamUDemy/App.xaml.cs" Line="19" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
