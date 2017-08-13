@@ -11,6 +11,7 @@ namespace XamUDemy.Pages
         {
             InitializeComponent();
 
+            //This shows how you can create a label in both C# and XAML
             Content = new Label
             {
                 HorizontalOptions = LayoutOptions.Center,
