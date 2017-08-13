@@ -4,10 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Layouts.StackLayout">
 
-    <Label 
+    <StackLayout
         HorizontalOptions="Center" 
-        VerticalOptions="Center"
-        Text="Do More" />
+        VerticalOptions="Center">
+
+           <Label 
+                Text="Do More" />
+            <Slider/>
+
+    </StackLayout>
+
     
 </ContentPage>
 

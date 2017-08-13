@@ -14,7 +14,7 @@
       <File FileName="XamUDemy/Pages/ButtonPage.xaml.cs" Line="18" Column="4" />
       <File FileName="XamUDemy/Pages/LabelPage.xaml" Line="1" Column="1" />
       <File FileName="XamUDemy/Pages/LabelPage.xaml.cs" Line="14" Column="72" />
-      <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="11" Column="1" />
       <File FileName="XamUDemy/Layouts/StackLayout.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

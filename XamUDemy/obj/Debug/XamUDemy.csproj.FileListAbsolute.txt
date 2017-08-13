@@ -17,5 +17,6 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Images.EmbeddedImages.xaml.g.cs
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.ButtonPage.xaml.g.cs
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.LabelPage.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Layouts.StackLayout.xaml.g.cs
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.dll
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
