@@ -7,7 +7,8 @@
     <Button
         HorizontalOptions="Center"
         VerticalOptions="Center"
-        Text="Click Me">
+        Text="Click Me"
+        Clicked="Handle_Clicked">
     </Button>
 
 </ContentPage>

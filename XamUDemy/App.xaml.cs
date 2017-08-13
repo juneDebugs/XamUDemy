@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using XamUDemy.Pages;
 
 namespace XamUDemy
 {
@@ -8,7 +9,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new EmbeddedImages();
+            MainPage = new ButtonPage();
         }
 
         protected override void OnStart()
