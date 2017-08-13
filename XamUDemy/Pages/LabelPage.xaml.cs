@@ -10,6 +10,13 @@ namespace XamUDemy.Pages
         public LabelPage()
         {
             InitializeComponent();
+
+            Content = new Label
+            {
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+                Text = "Do More"
+            };
         }
     }
 }
