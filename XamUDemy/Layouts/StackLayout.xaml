@@ -6,15 +6,30 @@
 
     <StackLayout
         HorizontalOptions="Center" 
-        VerticalOptions="Center">
+        VerticalOptions="Center"
+        BindingContext="{x:Reference slider}">
 
+        <BoxView
+            Color="Aqua"
+            Opacity="{Binding Value}"/>
             <!--Binding Example-->
-            <Label 
-                Text="{Binding 
+            <!-- Text="{Binding 
                     Source={x:Reference slider}, 
                     Path=Value, 
+                    StringFormat='Value is {0:F2}'}"-->
+            <!-- Opacity="{Binding
+                    Source= {x:Reference slider},
+                    Path= Value}"/>-->
+
+           <!-- Binding Context Example-->
+            <Label 
+                x:Name="label"
+                BindingContext="{x:Reference slider}"
+            
+                Text="{Binding Value, 
                     StringFormat='Value is {0:F2}'}" 
-                x:Name="label"/>
+
+                Opacity="{Binding Value}"/>
 
             <!--Notice how EventHandler is removed when using Bindings-->
             <!-- ValueChanged="Handle_ValueChanged"-->

@@ -1,3 +1,12 @@
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csproj.CoreCompileInputs.cache
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.App.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.XamUDemyPage.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Images.EmbeddedImages.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.ButtonPage.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.LabelPage.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Layouts.StackLayout.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.dll
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/XamUDemy.dll
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/XamUDemy.pdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Core.dll
@@ -11,12 +20,3 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csproj.CoreCompileInputs.cache
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.App.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.XamUDemyPage.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Images.EmbeddedImages.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.ButtonPage.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.LabelPage.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Layouts.StackLayout.xaml.g.cs
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.dll
-/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
