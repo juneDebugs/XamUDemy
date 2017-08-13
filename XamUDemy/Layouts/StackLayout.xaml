@@ -2,8 +2,16 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.Layouts.StackLayout">
+    x:Class="XamUDemy.Layouts.StackLayout"
+    Padding="0,20,0,0">
 
+    <ContentPage.Padding>
+         <OnPlatform x:TypeArguments="Thickness"
+            iOS= "0,20,0,0"
+            Android= "10,20,0,0">
+        </OnPlatform>   
+    </ContentPage.Padding>
+    
     <StackLayout
         HorizontalOptions="Center" 
         VerticalOptions="Center"
