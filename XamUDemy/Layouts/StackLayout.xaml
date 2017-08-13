@@ -8,12 +8,17 @@
         HorizontalOptions="Center" 
         VerticalOptions="Center">
 
+            <!--Binding Example-->
             <Label 
-                Text="Do More" 
+                Text="{Binding 
+                    Source={x:Reference slider}, 
+                    Path=Value, 
+                    StringFormat='Value is {0:F2}'}" 
                 x:Name="label"/>
 
+            <!--Notice how EventHandler is removed when using Bindings-->
+            <!-- ValueChanged="Handle_ValueChanged"-->
             <Slider
-                ValueChanged="Handle_ValueChanged"
                 x:Name="slider"/>
 
     </StackLayout>
