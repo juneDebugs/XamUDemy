@@ -9,14 +9,16 @@
         RowSpacing="40"
         ColumnSpacing= "40" >
 
+        <!--RowDefinitions and ColumnDefinitions are Property Element Syntax-->
         <Grid.RowDefinitions>
             <RowDefinition Height= "100" />
             <RowDefinition Height= "2*" />
             <RowDefinition Height= "*" />
         </Grid.RowDefinitions>
 
+        <!--'AUTO' perfectly fits all children-->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width= "100" />
+            <ColumnDefinition Width= "Auto" />
              <ColumnDefinition Width= "2*" />
              <ColumnDefinition Width= "*" />
         </Grid.ColumnDefinitions>
