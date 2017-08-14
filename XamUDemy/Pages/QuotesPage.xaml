@@ -24,7 +24,7 @@
             BindingContext="{x:Reference slider}"
 
             Text="{Binding Value,
-                StringFormat='Font Size: {0:NO}'}" />
+                StringFormat='Font Size: {0:N0}'}" />
 
         <Slider
             x:Name="slider"
