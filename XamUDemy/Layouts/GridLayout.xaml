@@ -9,12 +9,18 @@
         RowSpacing="40"
         ColumnSpacing= "40" >
 
-        <Grid.Rowdefinitions>
-            <RowDefinition Height="100" />
-            <RowDefinition Height="2*" />
-            <RowDefinition Height="*" />
-        </Grid.Rowdefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height= "100" />
+            <RowDefinition Height= "2*" />
+            <RowDefinition Height= "*" />
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width= "100" />
+             <ColumnDefinition Width= "2*" />
+             <ColumnDefinition Width= "*" />
+        </Grid.ColumnDefinitions>
+        
         <Label 
             Grid.Row= "0"
             Grid.Column= "0"
