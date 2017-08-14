@@ -20,10 +20,10 @@ namespace XamUDemy.Layouts
             else if (Device.OS == TargetPlatform.Android)
                 Padding = new Thickness(10, 20, 0, 0);
 
-            Padding = Device.OnPlatform(
-                iOS: new Thickness(0,20,0,0),
-                Android: new Thickness(10,20,0,0)
-            );
+            //Padding = Device.OnPlatform(
+                //iOS: new Thickness(0, 20, 0, 0),
+                //Android: new Thickness(10, 20, 0, 0);
+
         }
         //No more need for event handler because of Binding Context
 

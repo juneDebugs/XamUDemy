@@ -4,6 +4,35 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.QuotesPage">
 
+    <ContentPage.Padding>
+         <OnPlatform x:TypeArguments="Thickness"
+            iOS= "0,20,0,0"
+            Android= "20,30,20,20">
+        </OnPlatform>   
+    </ContentPage.Padding>
     
-	
+    <StackLayout
+        HorizontalOptions="Center" 
+        VerticalOptions="Center"
+        BindingContext="{x:Reference slider}">
+
+        <Button
+            Text="Next"
+            Clicked="Handle_Clicked">
+        </Button>
+
+        <Label
+            Text="{Binding Value,
+                StringFormat='Font Size: {0:NO}'}" />
+
+        <Slider
+            x:Name="slider"
+            Maximum="50"
+            Minimum="16" />
+
+        <Label  
+            x:Name= "currentQuote"
+            FontSize="{Binding Value}" />
+
+    </StackLayout>
 </ContentPage>
