@@ -33,11 +33,17 @@
             Text= "Label 4" 
             BackgroundColor= "Aqua" />
 
-           <Label 
+        <Label 
             Grid.Row= "2"
             Grid.ColumnSpan= "3"
             Text= "ColumnSpan" 
             BackgroundColor= "Aqua" />
+
+        <Label
+            Grid.Column="2"
+            Grid.RowSpan="3"
+            Text= "RowSpan"
+            BackgroundColor= "Aqua"/> 
         
     </Grid>
 </ContentPage>
