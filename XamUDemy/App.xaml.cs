@@ -10,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new Layouts.StackLayout();
+            MainPage = new QuotesPage();
         }
 
         protected override void OnStart()

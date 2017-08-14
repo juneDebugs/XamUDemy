@@ -20,3 +20,5 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csprojResolveAssemblyReference.cache
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.QuotesPage.xaml.g.cs

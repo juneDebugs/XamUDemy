@@ -7,25 +7,28 @@ namespace XamUDemy.Pages
 {
     public partial class QuotesPage : ContentPage
     {
-
+        private int _index = 0;
+        private string[] _quotes = new string[]
+        {
+            "Do More",
+            "Never Quit",
+            "I'm Hungry"
+        };
 
 
         public QuotesPage()
         {
             InitializeComponent();
-
-			void Handle_Clicked(object sender, System.EventArgs e)
-			{
-                string="fgfxx";
-			}
-
-			slider.Value = 0.5;
+            currentQuote.Text = _quotes[_index];
         }
 
 		void Handle_Clicked(object sender, System.EventArgs e)
 		{
-			throw new NotImplementedException();
-		}
+            _index++;
+            if (_index >= _quotes.Length)
+                _index = 0;
 
+            currentQuote.Text = _quotes[_index];
+		}
     }
 }
