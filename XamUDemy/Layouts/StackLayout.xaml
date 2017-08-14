@@ -11,10 +11,13 @@
             Android= "10,20,0,0">
         </OnPlatform>   
     </ContentPage.Padding>
-    
+
+       <!-- Orientation is default vertical -->
     <StackLayout
         HorizontalOptions="Center" 
         VerticalOptions="Center"
+        Orientation="Horizontal"
+        Padding="40"
         BindingContext="{x:Reference slider}">
 
         <BoxView
