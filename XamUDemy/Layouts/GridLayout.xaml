@@ -3,7 +3,30 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Layouts.GridLayout">
+    <Grid>
+        <Label 
+            Grid.Row= "0"
+            Grid.Column= "0"
+            Text= "Label 1" 
+            BackgroundColor= "Aqua" />
 
+        <Label 
+            Grid.Row= "0"
+            Grid.Column= "1"
+            Text= "Label 2" 
+            BackgroundColor= "Aqua" />
 
+        <Label 
+            Grid.Row= "1"
+            Grid.Column= "0"
+            Text= "Label 3" 
+            BackgroundColor= "Aqua" />
 
+        <Label 
+            Grid.Row= "1"
+            Grid.Column= "1"
+            Text= "Label 4" 
+            BackgroundColor= "Aqua" />
+
+    </Grid>
 </ContentPage>
