@@ -46,6 +46,9 @@
     <EmbeddedResource Include="Pages\QuotesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\GridLayout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -70,6 +73,9 @@
     </Compile>
     <Compile Include="Pages\QuotesPage.xaml.cs">
       <DependentUpon>QuotesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\GridLayout.xaml.cs">
+      <DependentUpon>GridLayout.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
