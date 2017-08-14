@@ -12,8 +12,6 @@
     </ContentPage.Padding>
     
     <StackLayout
-        HorizontalOptions="Center" 
-        VerticalOptions="Center"
         BindingContext="{x:Reference slider}">
 
         <Button
@@ -22,7 +20,9 @@
         </Button>
 
         <Label
-            Text="{Binding Value,
+            Text="{Binding 
+                Source = {x:Reference slider},
+                Path = Value,
                 StringFormat='Font Size: {0:NO}'}" />
 
         <Slider

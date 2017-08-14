@@ -15,7 +15,6 @@ namespace XamUDemy.Pages
             "I'm Hungry"
         };
 
-
         public QuotesPage()
         {
             InitializeComponent();
