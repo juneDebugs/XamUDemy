@@ -5,7 +5,10 @@
     x:Class="XamUDemy.Layouts.GridLayout">
 
     <Grid
-        BackgroundColor="Black">
+        BackgroundColor="Black"
+        RowSpacing="40"
+        ColumnSpacing= "40" >
+
         <Label 
             Grid.Row= "0"
             Grid.Column= "0"
