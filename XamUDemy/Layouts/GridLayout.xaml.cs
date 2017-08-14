@@ -10,6 +10,16 @@ namespace XamUDemy.Layouts
         public GridLayout()
         {
             InitializeComponent();
+
+            var grid = new Grid
+            {
+                RowSpacing = 20,
+                ColumnSpacing = 40
+            };
+
+            grid.Children.Add(new Label { Text = "Label 1" }, 0, 0);
+
+
         }
     }
 }
