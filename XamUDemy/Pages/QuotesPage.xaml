@@ -2,7 +2,8 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.Pages.QuotesPage">
+    x:Class="XamUDemy.Pages.QuotesPage"
+    BackgroundColor="Silver">
 
     <ContentPage.Padding>
          <OnPlatform x:TypeArguments="Thickness"
@@ -20,9 +21,9 @@
         </Button>
 
         <Label
-            Text="{Binding 
-                Source = {x:Reference slider},
-                Path = Value,
+            BindingContext="{x:Reference slider}"
+
+            Text="{Binding Value,
                 StringFormat='Font Size: {0:NO}'}" />
 
         <Slider
