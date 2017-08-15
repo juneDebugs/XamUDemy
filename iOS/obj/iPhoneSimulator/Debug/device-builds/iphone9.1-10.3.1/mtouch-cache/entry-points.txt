@@ -1,5 +1,5 @@
-mono_pmip
-xamarin_dyn_objc_msgSend
-xamarin_dyn_objc_msgSendSuper
-xamarin_dyn_objc_msgSend_stret
-xamarin_dyn_objc_msgSendSuper_stret
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

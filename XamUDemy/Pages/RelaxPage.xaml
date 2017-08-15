@@ -4,6 +4,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.RelaxPage">
 
+    <AbsoluteLayout>
+        <Image
+            AbsoluteLayout.LayoutBounds= "0, 0, 1, 1" AbsoluteLayout.LayoutFlags= "All" 
+            Source= "http://lorempixel.com/1920/1080/nature/7"
+            Aspect= "AspectFit" />
+            
+
+
+
+
+
+    </AbsoluteLayout>
 
 
 
