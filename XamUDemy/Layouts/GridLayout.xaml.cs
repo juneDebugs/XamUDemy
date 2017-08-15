@@ -18,6 +18,7 @@ namespace XamUDemy.Layouts
             };
 
             grid.Children.Add(new Label { Text = "Label 1" }, 0, 0);
+            Grid.SetRowSpan();
 
 
         }
