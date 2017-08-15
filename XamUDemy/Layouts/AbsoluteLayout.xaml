@@ -5,7 +5,7 @@
     x:Class="XamUDemy.Layouts.AbsoluteLayout"
     Padding="0,20,0,0">
 
-<!--    Flags
+<!--    AbsoluteLayout.LayoutFlags
         1) All (All elements are porportional)
         2) WidthProportional 
         3) HeightProportional
@@ -15,10 +15,22 @@
         7) SizeProportional-->
     
     <AbsoluteLayout>
-        <BoxView Color= "Aqua"
+        <BoxView 
+            Color= "Aqua"
             AbsoluteLayout.LayoutBounds= "0, 0, 1, 1" 
             AbsoluteLayout.LayoutFlags= "All" />
 
+        <BoxView
+            Color= "White"
+            AbsoluteLayout.LayoutBounds="0.5, 0.1, 100, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
 
+        <Button
+            Text= "Get Started"
+            TextColor= "White"
+            BackgroundColor= "Silver"
+            AbsoluteLayout.LayoutBounds= "0, 1, 1, 50" 
+            AbsoluteLayout.LayoutFlags= "PositionProportional, WidthProportional"/>
+            
     </AbsoluteLayout>
 </ContentPage>
