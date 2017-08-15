@@ -55,6 +55,9 @@
     <EmbeddedResource Include="Layouts\AbsoluteLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\CreditPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -88,6 +91,9 @@
     </Compile>
     <Compile Include="Layouts\AbsoluteLayout.xaml.cs">
       <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreditPage.xaml.cs">
+      <DependentUpon>CreditPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Layouts/AbsoluteLayout.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/CreditPage.xaml">
     <Files>
       <File FileName="XamUDemy/Layouts/StackLayout.xaml.cs" Line="15" Column="13" />
       <File FileName="XamUDemy/Pages/QuotesPage.xaml" Line="41" Column="1" />
@@ -12,8 +12,10 @@
       <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
       <File FileName="XamUDemy/Pages/CellDialPage.xaml" Line="150" Column="1" />
       <File FileName="XamUDemy/Pages/CellDialPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml" Line="6" Column="1" />
-      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml" Line="32" Column="48" />
+      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml.cs" Line="16" Column="13" />
+      <File FileName="XamUDemy/Pages/CreditPage.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Pages/CreditPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
