@@ -52,6 +52,9 @@
     <EmbeddedResource Include="Pages\CellDialPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\AbsoluteLayout.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -82,6 +85,9 @@
     </Compile>
     <Compile Include="Pages\CellDialPage.xaml.cs">
       <DependentUpon>CellDialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\AbsoluteLayout.xaml.cs">
+      <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
