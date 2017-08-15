@@ -23,10 +23,12 @@
         <Label
             Grid.Row= "0"
             Grid.ColumnSpan= "3"
-            
-            
-
-
+            VerticalOptions= "Center"
+            HorizontalOptions= "Center"
+            Text= "1234"
+            TextColor= "White"
+            FontSize= "50">             
+        </Label>
 
 
 
