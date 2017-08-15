@@ -26,6 +26,21 @@ namespace XamUDemy.Layouts
             Grid.SetRow(label, 0);
             Grid.SetColumn(label, 0);
 
-        }
+            grid.RowDefinitions.Add(new RowDefinition
+            {
+                Height = new GridLength(100, GridUnitType.Absolute)
+            });
+
+			grid.RowDefinitions.Add(new RowDefinition
+			{
+                Height = new GridLength(2, GridUnitType.Star)
+			});
+
+			grid.RowDefinitions.Add(new RowDefinition
+			{
+                Height = new GridLength(1, GridUnitType.Star)
+			});
+
+		}
     }
 }
