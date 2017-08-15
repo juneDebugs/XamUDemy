@@ -40,6 +40,10 @@
                 FontSize= "15"
                 FontAttributes= "Bold" />
 
+                <Label
+                HorizontalOptions= "Center" HorizontalTextAlignment= "Center"
+                Text="Because you can reach people who aren't on SkyApp by calling mobile and landline numbers, or spending SMS, at low-cost rates." 
+                FontSize= "13" />
             
             </StackLayout>
     </AbsoluteLayout>
