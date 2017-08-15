@@ -34,7 +34,11 @@
                 Padding= "40"
                 Spacing= "20">
 
-
+                <Label 
+                HorizontalOptions= "Center" 
+                Text= "Why pay for credit?"
+                FontSize= "15"
+                FontAttributes= "Bold" />
 
             
             </StackLayout>
