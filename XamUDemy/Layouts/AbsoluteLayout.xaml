@@ -9,7 +9,10 @@
         1) All (All elements are porportional)
         2) WidthProportional 
         3) HeightProportional
-        4) XProportional-->
+        4) XProportional
+        5) YProportional
+        6) PositionProportional
+        7) SizeProportional-->
     
     <AbsoluteLayout>
         <BoxView Color= "Aqua"
