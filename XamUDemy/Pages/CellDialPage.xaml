@@ -123,6 +123,16 @@
             BackgroundColor= "#fff">
         </Button>
 
+         <!--Row 4-->
+           <Button
+            Grid.Row= "4"
+            Grid.Column= "1" 
+            BorderRadius= "30"
+            Text= "0"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
 
 
     </Grid>
