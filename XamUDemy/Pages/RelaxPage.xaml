@@ -18,17 +18,21 @@
             FontSize= "30" />
 
         <BoxView
-            AbsoluteLayout.LayoutBounds= "0, 1, 1, 100" AbsoluteLayout.LayoutFlags= "PositionProportional, Width Proportional" 
+            AbsoluteLayout.LayoutBounds= "0, 1, 1, 100" AbsoluteLayout.LayoutFlags= "PositionProportional, WidthProportional" 
             Color= "Black"
             Opacity= "0.5" />
-           
+
+            <StackLayout
+                AbsoluteLayout.LayoutBounds= "0, 1, 1, 100" AbsoluteLayout.LayoutFlags= "PositionProportional, WidthProportional"
+                Orientation= "Horizontal" 
+                Padding= "30,0" >
 
 
 
+
+
+
+
+            </StackLayout>
     </AbsoluteLayout>
-
-
-
-
-    
 </ContentPage>
