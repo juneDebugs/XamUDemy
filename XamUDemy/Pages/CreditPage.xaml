@@ -4,8 +4,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.CreditPage">
 
+    <AbsoluteLayout>
+        <BoxView
+            AbsoluteLayout.LayoutBounds= "0,0,1,0.3" AbsoluteLayout.LayoutFlags= "All" 
+            Color= "#f7f7f7" />
+
+            <StackLayout
+            AbsoluteLayout.LayoutBounds= "0, 0, 1, 0.3" AbsoluteLayout.LayoutFlags= "All"
+            HorizontalOptions= "Center" VerticalOptions= "Center" >
 
 
 
-    
+            
+            </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>
