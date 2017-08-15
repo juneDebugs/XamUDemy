@@ -17,6 +17,7 @@
 
         <Button
             Text="Next"
+            FontSize="Large"
             Clicked="Handle_Clicked">
         </Button>
 
