@@ -61,6 +61,37 @@
             BackgroundColor= "#fff">
         </Button>
 
+        <!--Row 2-->
+         <Button
+            Grid.Row= "2"
+            Grid.Column= "0" 
+            BorderRadius= "30"
+            Text= "4"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
+
+          <Button
+            Grid.Row= "2"
+            Grid.Column= "1" 
+            BorderRadius= "30"
+            Text= "5"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
+
+          <Button
+            Grid.Row= "2"
+            Grid.Column= "2" 
+            BorderRadius= "30"
+            Text= "6"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
+
 
 
     </Grid>
