@@ -7,13 +7,26 @@
     <AbsoluteLayout>
         <BoxView
             AbsoluteLayout.LayoutBounds= "0,0,1,0.3" AbsoluteLayout.LayoutFlags= "All" 
-            Color= "#f7f7f7" />
+            Color= "Gray" />
 
             <StackLayout
             AbsoluteLayout.LayoutBounds= "0, 0, 1, 0.3" AbsoluteLayout.LayoutFlags= "All"
             HorizontalOptions= "Center" VerticalOptions= "Center" >
 
+                <Label
+                    HorizontalOptions= "Center"
+                    Text= "$23.23"
+                    TextColor= "#33353a" 
+                    FontSize= "60"
+                    FontAttributes= "Bold"/>
 
+                <Button
+                    HeightRequest= "30"
+                    BorderRadius= "15"
+                    BackgroundColor= "#1695A3"
+                    Text= "Add $7.99 Credit"
+                    TextColor="White"
+                    FontSize="15" />
 
             
             </StackLayout>
