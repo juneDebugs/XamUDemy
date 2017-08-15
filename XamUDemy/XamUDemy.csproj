@@ -49,6 +49,9 @@
     <EmbeddedResource Include="Layouts\GridLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\CellDialPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -76,6 +79,9 @@
     </Compile>
     <Compile Include="Layouts\GridLayout.xaml.cs">
       <DependentUpon>GridLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CellDialPage.xaml.cs">
+      <DependentUpon>CellDialPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

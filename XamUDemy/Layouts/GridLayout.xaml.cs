@@ -38,7 +38,7 @@ namespace XamUDemy.Layouts
 
 			grid.RowDefinitions.Add(new RowDefinition
 			{
-                Height = new GridLength(1, GridUnitType.Star)
+                Height = new GridLength(1, GridUnitType.Auto)
 			});
 
 		}
