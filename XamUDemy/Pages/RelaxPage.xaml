@@ -17,6 +17,10 @@
             TextColor= "White" 
             FontSize= "30" />
 
+        <BoxView
+            AbsoluteLayout.LayoutBounds= "0, 1, 1, 100" AbsoluteLayout.LayoutFlags= "PositionProportional, Width Proportional" 
+            Color= "Black"
+            Opacity= "0.5" />
            
 
 
