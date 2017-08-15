@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/CellDialPage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="XamUDemy/Layouts/StackLayout.xaml.cs" Line="15" Column="13" />
-      <File FileName="XamUDemy/Pages/QuotesPage.xaml" Line="20" Column="22" />
+      <File FileName="XamUDemy/Pages/QuotesPage.xaml" Line="41" Column="1" />
       <File FileName="XamUDemy/Pages/QuotesPage.xaml.cs" Line="19" Column="10" />
       <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="15" Column="1" />
       <File FileName="XamUDemy/Pages/ButtonPage.xaml.cs" Line="15" Column="2" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="17" Column="10" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="12" Column="13" />
       <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="53" Column="1" />
       <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
-      <File FileName="XamUDemy/Pages/CellDialPage.xaml" Line="11" Column="9" />
+      <File FileName="XamUDemy/Pages/CellDialPage.xaml" Line="150" Column="1" />
       <File FileName="XamUDemy/Pages/CellDialPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
