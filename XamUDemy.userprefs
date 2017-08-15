@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Layouts/GridLayout.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="XamUDemy/Layouts/StackLayout.xaml.cs" Line="15" Column="13" />
-      <File FileName="XamUDemy/Pages/QuotesPage.xaml" Line="19" Column="24" />
+      <File FileName="XamUDemy/Pages/QuotesPage.xaml" Line="40" Column="1" />
       <File FileName="XamUDemy/Pages/QuotesPage.xaml.cs" Line="19" Column="10" />
-      <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="9" Column="22" />
+      <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="15" Column="1" />
       <File FileName="XamUDemy/Pages/ButtonPage.xaml.cs" Line="15" Column="2" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
       <File FileName="XamUDemy/App.xaml.cs" Line="17" Column="10" />
-      <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="15" Column="12" />
-      <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="12" Column="80" />
+      <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="53" Column="1" />
+      <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
       <File FileName="XamUDemy/Layouts/GridLayout.xaml.cs" Line="21" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>

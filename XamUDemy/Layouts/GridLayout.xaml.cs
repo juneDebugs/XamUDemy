@@ -17,9 +17,14 @@ namespace XamUDemy.Layouts
                 ColumnSpacing = 40
             };
 
-            grid.Children.Add(new Label { Text = "Label 1" }, 0, 0);
-            Grid.SetRowSpan();
+            var label = new Label { Text = "Label 1" };
+            grid.Children.Add(label, 0, 0);
+            Grid.SetRowSpan(label, 2);
+            Grid.SetColumnSpan(label, 2);
 
+            //Not used that often
+            Grid.SetRow(label, 0);
+            Grid.SetColumn(label, 0);
 
         }
     }
