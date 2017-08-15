@@ -22,6 +22,7 @@
         <!--Row 0-->
         <Label
             Grid.Row= "0"
+            Grid.Column = "0"
             Grid.ColumnSpan= "3"
             VerticalOptions= "Center"
             HorizontalOptions= "Center"
