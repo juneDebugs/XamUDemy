@@ -27,6 +27,14 @@
                     Text= "Add $7.99 Credit"
                     TextColor="White"
                     FontSize="15" />
+            </StackLayout>
+
+            <StackLayout
+                AbsoluteLayout.LayoutBounds= "0, 0.5, 1, 0.3" AbsoluteLayout.LayoutFlags= "All"
+                Padding= "40"
+                Spacing= "20">
+
+
 
             
             </StackLayout>
