@@ -7,17 +7,17 @@
 
     <Grid
         Padding = "40"
-        RowSpacing="10"
+        RowSpacing= "10"
         ColumnSpacing= "10">
 
-       <Grid.RowDefinition>
+       <Grid.RowDefinitions>
             <RowDefinition Height= "2*" />
             <RowDefinition Height= "*" />
             <RowDefinition Height= "*" />
             <RowDefinition Height= "*" />
             <RowDefinition Height= "*" />
             <RowDefinition Height= "*" />
-        </Grid.RowDefinition>
+        </Grid.RowDefinitions>
 
         <!--Row 0-->
         <Label
@@ -124,7 +124,7 @@
         </Button>
 
          <!--Row 4-->
-           <Button
+        <Button
             Grid.Row= "4"
             Grid.Column= "1" 
             BorderRadius= "30"
@@ -134,7 +134,16 @@
             BackgroundColor= "#fff">
         </Button>
 
+          <!--Row 5-->
+        <Button
+            Grid.Row= "5"
+            Grid.ColumnSpan= "3" 
+            BorderRadius= "30"
+            Text= "Dial"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "Aqua">
+        </Button>
 
     </Grid>
-
 </ContentPage>

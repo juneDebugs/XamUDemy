@@ -10,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new QuotesPage();
+            MainPage = new CellDialPage();
         }
 
         protected override void OnStart()

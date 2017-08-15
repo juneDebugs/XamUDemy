@@ -22,3 +22,5 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Layouts.GridLayout.xaml.g.cs
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.dll
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csprojResolveAssemblyReference.cache
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.CellDialPage.xaml.g.cs
