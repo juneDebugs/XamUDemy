@@ -19,7 +19,7 @@
             <RowDefinition Height= "*" />
         </Grid.RowDefinition>
 
-        <!--0-->
+        <!--Row 0-->
         <Label
             Grid.Row= "0"
             Grid.ColumnSpan= "3"
@@ -29,6 +29,37 @@
             TextColor= "White"
             FontSize= "50">             
         </Label>
+
+        <!--Row 1-->
+        <Button
+            Grid.Row= "1"
+            Grid.Column= "0" 
+            BorderRadius= "30"
+            Text= "1"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
+
+        <Button
+            Grid.Row= "1"
+            Grid.Column= "1" 
+            BorderRadius= "30"
+            Text= "2"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
+
+         <Button
+            Grid.Row= "1"
+            Grid.Column= "2" 
+            BorderRadius= "30"
+            Text= "3"
+            FontSize= "30"
+            TextColor= "#28282c"
+            BackgroundColor= "#fff">
+        </Button>
 
 
 
