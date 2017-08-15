@@ -6,8 +6,9 @@
     BackgroundColor= "#354242">
 
     <Grid
-        Padding = "40">
-
+        Padding = "40"
+        RowSpacing="10"
+        ColumnSpacing= "10">
         
 
 

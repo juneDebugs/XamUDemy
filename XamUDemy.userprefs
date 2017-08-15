@@ -10,8 +10,7 @@
       <File FileName="XamUDemy/App.xaml.cs" Line="17" Column="10" />
       <File FileName="XamUDemy/Layouts/StackLayout.xaml" Line="53" Column="1" />
       <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
-      <File FileName="XamUDemy/Layouts/GridLayout.xaml.cs" Line="40" Column="5" />
-      <File FileName="XamUDemy/Pages/CellDialPage.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Pages/CellDialPage.xaml" Line="11" Column="9" />
       <File FileName="XamUDemy/Pages/CellDialPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
