@@ -8,15 +8,16 @@
         <Image
             AbsoluteLayout.LayoutBounds= "0, 0, 1, 1" AbsoluteLayout.LayoutFlags= "All" 
             Source= "http://lorempixel.com/1920/1080/nature/7"
-            Aspect= "AspectFit" />
+            Aspect= "AspectFill" />
 
         <Label
             AbsoluteLayout.LayoutBounds= "0, 20, 1, 50" AbsoluteLayout.LayoutFlags= "WidthProportional" 
+            HorizontalOptions= "Center"
             Text= "Relax" 
             TextColor= "White" 
             FontSize= "30" />
 
-
+           
 
 
 
