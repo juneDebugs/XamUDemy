@@ -48,7 +48,32 @@
                         FontAttributes= "Bold"
                         HeightRequest= "30"
                         BorderRadius= "15" />
-                
+                </StackLayout>
+
+                <StackLayout
+                    RelativeLayout.WidthConstraint= 
+                        "{ConstraintExpression
+                            Type= RelativeToParent
+                            Property= Width
+                            Factor= 1}"
+
+                    RelativeLayout.YConstraint=
+                        "{ConstraintExpression
+                            Type= RelativeToView
+                            Property= Height
+                            Factor= 1
+                            Constant= 30}" >
+
+                    <Label
+                        HorizontalOptions= "Center"
+                        Text= "Why Pay for Credit?"
+                        FontAttributes= "Bold"
+                        FontSize= "15" />            
+
+
+
+
+
                 </StackLayout>
     </RelativeLayout>
 </ContentPage>
