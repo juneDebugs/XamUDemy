@@ -4,9 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.ImagePage">
 
-    <Image 
-        Source= "http://lorempixel.com/1920/1080/sports/7/"
-        x:Name= "image" />
+    <!--Activity Indicator false by default-->
+    <AbsoluteLayout>
+        <ActivityIndicator
+            IsRunning = "true"
+        
+        <Image 
+            x:Name= "image" 
+            Aspect= "AspectFill" />
     
-	
+    </AbsoluteLayout>
 </ContentPage>
