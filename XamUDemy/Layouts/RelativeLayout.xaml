@@ -29,7 +29,7 @@
                     Type= RelativeToView,
                     ElementName= banner,
                     Property= Height,
-                    Factor= 1,
+                    Factor= 0.8,
                     Constant= 20}" 
             Color= "Silver" />
            
