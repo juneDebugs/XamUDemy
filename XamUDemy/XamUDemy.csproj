@@ -95,9 +95,6 @@
     <Compile Include="Layouts\GridLayout.xaml.cs">
       <DependentUpon>GridLayout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\CellDialPage.xaml.cs">
-      <DependentUpon>CellDialPageGrid.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Layouts\AbsoluteLayout.xaml.cs">
       <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
     </Compile>
@@ -112,6 +109,9 @@
     </Compile>
     <Compile Include="Pages\CreditPageRelative.xaml.cs">
       <DependentUpon>CreditPageRelative.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ CellDialPageGrid.xaml.cs">
+      <DependentUpon>CellDialPageGrid.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

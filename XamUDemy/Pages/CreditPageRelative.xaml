@@ -42,7 +42,13 @@
                         FontAttributes= "Bold" />
 
                     <Button
-
+                        Text= "Add $7.99 Credit"
+                        BackgroundColor= "#1695a3"
+                        FontSize= "15"
+                        FontAttributes= "Bold"
+                        HeightRequest= "30"
+                        BorderRadius= "15" />
+                
                 </StackLayout>
     </RelativeLayout>
 </ContentPage>

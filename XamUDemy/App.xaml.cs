@@ -10,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new RelaxPage();
+            MainPage = new CreditPageRelative();
         }
 
         protected override void OnStart()
