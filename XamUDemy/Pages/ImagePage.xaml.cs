@@ -30,6 +30,7 @@ namespace XamUDemy.Pages
             imageSource.CacheValidity = TimeSpan.FromHours(1);
             //This is 1hr timeSpan
 
+            //Setting imageSource to image.Source object 
             image.Source = imageSource;
             image.Source = "http://...";
         }
