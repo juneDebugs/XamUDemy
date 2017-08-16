@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Layouts/GridLayout.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Layouts/RelativeLayout.xaml.cs">
     <Files>
       <File FileName="XamUDemy/Pages/CreditPageRelative.xaml" Line="15" Column="37" />
       <File FileName="XamUDemy/Pages/CreditPageRelative.xaml.cs" Line="1" Column="1" />
@@ -19,6 +19,7 @@
       <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml" Line="17" Column="21" />
       <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
       <File FileName="XamUDemy/Layouts/GridLayout.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Layouts/RelativeLayout.xaml.cs" Line="14" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
