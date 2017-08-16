@@ -11,16 +11,17 @@ namespace XamUDemy.Layouts
         {
             InitializeComponent();
 
-            //var layout = new AbsoluteLayout();
-            //Content = layout;
+            var layout = new Xamarin.Forms.AbsoluteLayout();
 
-            //var aquaBox = new BoxView { Color = Color.Aqua };
-            //layout.Children.Add(aquaBox,
-            //                    new Rectangle(0, 0, 1, 1),
-            //                    AbsoluteLayoutFlags.All);
+            var aquaBox = new BoxView { Color = Color.Aqua };
+            layout.Children.Add(aquaBox,
+                                new Rectangle(0, 0, 1, 1),
+                                AbsoluteLayoutFlags.All);
 
-            //AbsoluteLayout.SetLayoutBounds(aquaBox, new Rectangle(0, 0, 1, 1));
-            //AbsoluteLayout.SetLayoutFlags(aquaBox, AbsoluteLayoutFlags.HeightProportional);
+            Xamarin.Forms.AbsoluteLayout.SetLayoutBounds(aquaBox, new Rectangle(0, 0, 1, 1));
+            Xamarin.Forms.AbsoluteLayout.SetLayoutFlags(aquaBox, AbsoluteLayoutFlags.HeightProportional);
+
+            Content = layout;
         }
     }
 }
