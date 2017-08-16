@@ -4,5 +4,28 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.CreditPageRelative">
 
+    <RelativeLayout>
+        <BoxView
+            RelativeLayout.HeightConstraint=
+                "{ConstraintExpression
+                    Type= RelativeToParent,
+                    Property= Height,
+                    Factor= 0.3}"
+            x:Name= "banner"
+            BackgroundColor= "#f7f7f7" 
 
+            RelativeLayout.WidthConstraint=
+                "{ConstraintExpression
+                    Type= RelativeToParent
+                    Property= Width
+                    Factor= 1}" />
+            
+
+
+
+
+        
+
+
+    </RelativeLayout>
 </ContentPage>
