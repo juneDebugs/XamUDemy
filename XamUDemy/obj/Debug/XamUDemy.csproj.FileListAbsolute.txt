@@ -27,3 +27,4 @@
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.pdb
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.csprojResolveAssemblyReference.cache
 /Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Pages.RelaxPage.xaml.g.cs
+/Users/junecho/Projects/XamUDemy/XamUDemy/obj/Debug/XamUDemy.Layouts.RelativeLayout.xaml.g.cs
