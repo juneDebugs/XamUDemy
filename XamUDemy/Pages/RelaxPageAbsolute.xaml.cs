@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Pages
 {
-    public partial class RelaxPage : ContentPage
+    public partial class RelaxPageAbsolute : ContentPage
     {
-        public RelaxPage()
+        public RelaxPageAbsolute()
         {
             InitializeComponent();
         }
