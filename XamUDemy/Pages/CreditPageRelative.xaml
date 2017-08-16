@@ -16,16 +16,33 @@
 
             RelativeLayout.WidthConstraint=
                 "{ConstraintExpression
-                    Type= RelativeToParent
-                    Property= Width
+                    Type= RelativeToParent,
+                    Property= Width,
                     Factor= 1}" />
-            
-
-
-
-
         
+                <StackLayout
+                    HorizontalOptions= "Center"  VerticalOptions="Center"
 
+                    RelativeLayout.WidthConstraint=
+                        "{ConstraintExpression
+                            Type= RelativeToParent,
+                            Property= Width,
+                            Factor= 1}" 
 
+                    RelativeLayout.HeightConstraint=
+                        "{ConstraintExpression
+                            Type= RelativeToParent,
+                            Property= Height,
+                            Factor= 0.3}" >
+
+                    <Label
+                        Text= "$23.23"
+                        TextColor= "#33353a"
+                        FontSize= "60"
+                        FontAttributes= "Bold" />
+
+                    <Button
+
+                </StackLayout>
     </RelativeLayout>
 </ContentPage>

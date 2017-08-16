@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Pages
 {
-    public partial class CellDialPage : ContentPage
+    public partial class CellDialPageGrid : ContentPage
     {
-        public CellDialPage()
+        public CellDialPageGrid()
         {
             InitializeComponent();
         }

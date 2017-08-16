@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Pages
 {
-    public partial class QuotesPage : ContentPage
+    public partial class QuotesPageStack : ContentPage
     {
         private int _index = 0;
         private string[] _quotes = new string[]
@@ -15,7 +15,7 @@ namespace XamUDemy.Pages
             "I'm Hungry"
         };
 
-        public QuotesPage()
+        public QuotesPageStack()
         {
             InitializeComponent();
             currentQuote.Text = _quotes[_index];

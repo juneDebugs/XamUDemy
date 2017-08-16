@@ -6,7 +6,7 @@
 
     Padding= "0,20, 0, 0" >
 
-    <RelativeLayout>
+<!--    <RelativeLayout>
         <BoxView
             RelativeLayout.WidthConstraint=
                 "{ConstraintExpression 
@@ -33,5 +33,5 @@
                     Constant= 20}" 
             Color= "Silver" />
            
-    </RelativeLayout>
+    </RelativeLayout>-->
 </ContentPage>

@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Pages
 {
-    public partial class CreditPage : ContentPage
+    public partial class CreditPageAbsolute : ContentPage
     {
-        public CreditPage()
+        public CreditPageAbsolute()
         {
             InitializeComponent();
         }
