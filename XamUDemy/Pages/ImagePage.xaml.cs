@@ -19,6 +19,11 @@ namespace XamUDemy.Pages
 
             //ImageSource Properties
 
+            //CachingEnabled is a Bool and is automatically enabled
+            imageSource.CachingEnabled = false;
+
+
+
         }
     }
 }
