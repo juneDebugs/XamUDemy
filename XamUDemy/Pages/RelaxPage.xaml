@@ -27,12 +27,24 @@
                 Orientation= "Horizontal" 
                 Padding= "30,0" >
 
+                    <Label
+                        HorizontalOptions= "Center" VerticalOptions= "Center"
+                        Text= "Profile"
+                        TextColor= "White"
+                        FontSize= "15" /> 
 
+                    <Label
+                        HorizontalOptions= "CenterAndExpand" VerticalOptions= "Center"
+                        Text= " Meditate"
+                        TextColor= "White"
+                        FontSize= "15" />  
 
-
-
-
-
+                    <Label
+                        HorizontalOptions= "Center" VerticalOptions= "Center"
+                        Text= "Themes"
+                        TextColor= "White"
+                        FontSize= "15" />
+                      
             </StackLayout>
     </AbsoluteLayout>
 </ContentPage>
