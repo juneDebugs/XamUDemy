@@ -12,7 +12,7 @@
                     Property= Height,
                     Factor= 0.3}"
             x:Name= "banner"
-            BackgroundColor= "#f7f7f7" 
+            BackgroundColor= "Gray" 
 
             RelativeLayout.WidthConstraint=
                 "{ConstraintExpression
@@ -44,6 +44,7 @@
                     <Button
                         Text= "Add $7.99 Credit"
                         BackgroundColor= "#1695a3"
+                        TextColor= "White"
                         FontSize= "15"
                         FontAttributes= "Bold"
                         HeightRequest= "30"
@@ -53,27 +54,34 @@
                 <StackLayout
                     RelativeLayout.WidthConstraint= 
                         "{ConstraintExpression
-                            Type= RelativeToParent
-                            Property= Width
+                            Type= RelativeToParent,
+                            Property= Width,
                             Factor= 1}"
 
                     RelativeLayout.YConstraint=
                         "{ConstraintExpression
-                            Type= RelativeToView
-                            Property= Height
-                            Factor= 1
+                            Type= RelativeToView,
+                            ElementName = banner,
+                            Property= Height,
+                            Factor= 1,
                             Constant= 30}" >
 
                     <Label
                         HorizontalOptions= "Center"
                         Text= "Why Pay for Credit?"
                         FontAttributes= "Bold"
-                        FontSize= "15" />            
+                        FontSize= "15" />  
 
+                    <Label
+                        HorizontalOptions= "Center"
+                        HorizontalTextAlignment= "Center"
+                        FontSize= "13" >
 
+                        Because you can reach people who aren't on
+                        SkyApp by calling mobile and landline
+                        numbers, or spending SMS, at low-cost rates.
 
-
-
+                    </Label>
                 </StackLayout>
     </RelativeLayout>
 </ContentPage>
