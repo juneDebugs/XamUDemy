@@ -66,6 +66,9 @@
     <EmbeddedResource Include="Pages\CreditPageRelative.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\Images.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -108,6 +111,9 @@
     </Compile>
     <Compile Include="Pages\ CellDialPageGrid.xaml.cs">
       <DependentUpon>CellDialPageGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Images.xaml.cs">
+      <DependentUpon>Images.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

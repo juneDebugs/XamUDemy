@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/CreditPageRelative.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Images/Images.xaml">
     <Files>
       <File FileName="XamUDemy/Pages/CreditPageRelative.xaml" Line="15" Column="37" />
       <File FileName="XamUDemy/Pages/CreditPageRelative.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Images/Images.xaml" Line="4" Column="5" />
+      <File FileName="XamUDemy/Images/Images.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
