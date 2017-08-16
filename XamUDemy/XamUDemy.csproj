@@ -43,19 +43,19 @@
     <EmbeddedResource Include="Layouts\StackLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\QuotesPage.xaml">
+    <EmbeddedResource Include="Pages\QuotesPageStack.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\GridLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\CellDialPage.xaml">
+    <EmbeddedResource Include="Pages\CellDialPageGrid.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Layouts\AbsoluteLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\CreditPage.xaml">
+    <EmbeddedResource Include="Pages\CreditPageAbsolute.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\RelaxPage.xaml">
@@ -86,20 +86,20 @@
     <Compile Include="Layouts\StackLayout.xaml.cs">
       <DependentUpon>StackLayout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\QuotesPage.xaml.cs">
-      <DependentUpon>QuotesPage.xaml</DependentUpon>
+    <Compile Include="Pages\QuotesPageStack.xaml.cs">
+      <DependentUpon>QuotesPageStack.xaml</DependentUpon>
     </Compile>
     <Compile Include="Layouts\GridLayout.xaml.cs">
       <DependentUpon>GridLayout.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\CellDialPage.xaml.cs">
-      <DependentUpon>CellDialPage.xaml</DependentUpon>
+      <DependentUpon>CellDialPageGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Layouts\AbsoluteLayout.xaml.cs">
       <DependentUpon>AbsoluteLayout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\CreditPage.xaml.cs">
-      <DependentUpon>CreditPage.xaml</DependentUpon>
+    <Compile Include="Pages\CreditPageAbsolute.xaml.cs">
+      <DependentUpon>CreditPageAbsolute.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\RelaxPage.xaml.cs">
       <DependentUpon>RelaxPage.xaml</DependentUpon>
