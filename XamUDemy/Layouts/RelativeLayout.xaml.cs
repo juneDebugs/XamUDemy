@@ -21,8 +21,10 @@ namespace XamUDemy.Layouts
                    heightConstraint: Constraint.RelativeToParent(parent => parent.Height * 0.3));
 
             var silverBox = new BoxView { Color = Color.Silver };
-
-
+            layout.Children.Add
+                  (silverBox,
+                   yConstraint: Constraint.RelativeToView(aquaBox, (RelativeLayout, element) => element.Height + 20));
+             
         }
     }
 }
