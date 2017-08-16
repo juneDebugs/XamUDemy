@@ -10,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new CreditPageRelative();
+            MainPage = new ImagePage();
         }
 
         protected override void OnStart()

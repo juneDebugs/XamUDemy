@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace XamUDemy.Images
+namespace XamUDemy.Pages
 {
-    public partial class Images : ContentPage
+    public partial class ImagePage : ContentPage
     {
-        public Images()
+        public ImagePage()
         {
             InitializeComponent();
         }
