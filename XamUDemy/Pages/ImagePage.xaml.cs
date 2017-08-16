@@ -10,6 +10,15 @@ namespace XamUDemy.Pages
         public ImagePage()
         {
             InitializeComponent();
+
+            //Cleaner Way
+            var imageSource = new UriImageSource { Uri = new Uri("http://...") };
+
+            //DirtyWay
+            //var imageSource= (UriImageSource) ImageSource.FromUri(new Uri("http://..."));
+
+            //ImageSource Properties
+
         }
     }
 }
