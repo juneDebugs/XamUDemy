@@ -14,7 +14,7 @@ namespace XamUDemy.Pages
 			//var imageSource= (UriImageSource) ImageSource.FromUri(new Uri("http://..."));
 
 			//Cleaner Way
-			var imageSource = new UriImageSource { Uri = new Uri("http://...") };
+			var imageSource = new UriImageSource { Uri = new Uri("hhttp://lorempixel.com/1920/1080/sports/7/") };
 
 
             //ImageSource Properties
@@ -32,7 +32,7 @@ namespace XamUDemy.Pages
 
             //Setting imageSource to image.Source object 
             image.Source = imageSource;
-            image.Source = "http://...";
+            image.Source = "hhttp://lorempixel.com/1920/1080/sports/7/";
         }
     }
 }
