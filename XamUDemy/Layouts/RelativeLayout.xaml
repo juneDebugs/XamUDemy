@@ -20,7 +20,18 @@
                     Property= Height,
                     Factor= 0.3}"
 
-            Color= "Aqua" />
+            Color= "Aqua" 
+            x:Name= "banner" />
+        
+        <BoxView
+            RelativeLayout.YConstraint=
+                "{ConstraintExpression
+                    Type= RelativeToView,
+                    ElementName= banner,
+                    Property= Height,
+                    Factor= 1,
+                    Constant= 20}" 
+            Color= "Silver" />
            
     </RelativeLayout>
 </ContentPage>
