@@ -10,7 +10,20 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ImagePage();
+            MainPage = new EmbeddedImages
+
+
+
+
+
+
+
+
+
+
+
+
+                ();
         }
 
         protected override void OnStart()

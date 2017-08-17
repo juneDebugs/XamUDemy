@@ -10,6 +10,8 @@ namespace XamUDemy
         public EmbeddedImages()
         {
             InitializeComponent();
+
+            image.Source = ImageSource.FromResource("XamUdemy.Images.jordan.jpg");
         }
     }
 }

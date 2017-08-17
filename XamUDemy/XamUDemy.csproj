@@ -69,6 +69,7 @@
     <EmbeddedResource Include="Pages\ImagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\jordan.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
