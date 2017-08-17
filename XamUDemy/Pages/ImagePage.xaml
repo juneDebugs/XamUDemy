@@ -8,14 +8,19 @@
     <!--Activity Indicator false by default-->
     <AbsoluteLayout>
         <ActivityIndicator
-            IsRunning = "true"
+            IsRunning= "{Binding Source=
+                {x:Reference image}, 
+                Path= IsLoading}"
             Color= "Aqua"
-                AbsoluteLayout.LayoutBounds= "0.5, 0.5, 100,100"
+                AbsoluteLayout.LayoutBounds= "0.5, 0.5, 100, 100"
                 AbsoluteLayout.LayoutFlags= "PositionProportional" />
         
-        <Image IsVisible= "false"
-            x:Name= "image" 
-            Aspect= "AspectFill" />
+        <Image 
+            x:Name= "image"
+            IsVisible= "false"
+            Aspect= "AspectFill" 
+            AbsoluteLayout.LayoutBounds= "0, 0, 1, 1" 
+            AbsoluteLayout.LayoutFlags= "All" />
     
     </AbsoluteLayout>
 </ContentPage>
