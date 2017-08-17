@@ -11,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            image.Source = ImageSource.FromResource("XamUdemy.Images.jordan.jpg");
+            image.Source = ImageSource.FromResource("XamUDemy.Images.jordan.png");
         }
     }
 }
