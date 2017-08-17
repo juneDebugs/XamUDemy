@@ -8,6 +8,9 @@
       <!--xmlns:local="clr-namespace:XamUDemy.MarkupExtensions"-->
 
     
- <Image Source="{local:EmbeddedResource ResourceID=XamUDemy.ResourceImages.jordan.png}" x:Name="image" Aspect="AspectFit" />
+ <Image 
+    Source="{local:EmbeddedResource ResourceID=XamUDemy.ResourceImages.jordan.png}" 
+    x:Name="image" 
+    Aspect="AspectFit" />
 
 </ContentPage>
