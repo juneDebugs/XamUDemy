@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace XamUDemy.MarkupExtensions
 {
@@ -10,6 +11,9 @@ namespace XamUDemy.MarkupExtensions
 
         public object ProvideValue(IServiceProvider serviceProvider)
         {
+            if (String.IsNullOrWhiteSpace(ResourceID))
+                return null;
+
             return ImageSource.FromResource(ResourceID);
         }
     }
