@@ -70,6 +70,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\jordan.png" />
+    <EmbeddedResource Include="MarkupExtensions\EmbeddedImage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -79,7 +82,6 @@
     <Compile Include="Images\EmbeddedImages.xaml.cs">
       <DependentUpon>EmbeddedImages.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MarkupExtensions\EmbeddedResource.cs" />
     <Compile Include="Pages\ButtonPage.xaml.cs">
       <DependentUpon>ButtonPage.xaml</DependentUpon>
     </Compile>
@@ -115,6 +117,9 @@
     </Compile>
     <Compile Include="Pages\ImagePage.xaml.cs">
       <DependentUpon>ImagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarkupExtensions\EmbeddedImage.xaml.cs">
+      <DependentUpon>EmbeddedImage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

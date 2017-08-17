@@ -1,27 +1,11 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Images/EmbeddedImages.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/MarkupExtensions/EmbeddedImage.xaml">
     <Files>
-      <File FileName="XamUDemy/Pages/CreditPageRelative.xaml" Line="15" Column="37" />
-      <File FileName="XamUDemy/Pages/CreditPageRelative.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="14" Column="1" />
-      <File FileName="XamUDemy/Pages/ImagePage.xaml" Line="19" Column="28" />
-      <File FileName="XamUDemy/Pages/ImagePage.xaml.cs" Line="32" Column="13" />
-      <File FileName="XamUDemy/Pages/CreditPageAbsolute.xaml" Line="51" Column="1" />
-      <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="15" Column="1" />
-      <File FileName="XamUDemy/Pages/CellDialPageGrid.xaml" Line="151" Column="1" />
-      <File FileName="XamUDemy/Pages/LabelPage.xaml" Line="14" Column="1" />
-      <File FileName="XamUDemy/Pages/QuotesPageStack.xaml" Line="41" Column="1" />
-      <File FileName="XamUDemy/Pages/QuotesPageStack.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Pages/CreditPageAbsolute.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Pages/ CellDialPageGrid.xaml.cs" Line="12" Column="35" />
-      <File FileName="XamUDemy/Pages/RelaxPageAbsolute.xaml.cs" Line="12" Column="25" />
-      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml.cs" Line="22" Column="41" />
-      <File FileName="XamUDemy/Layouts/AbsoluteLayout.xaml" Line="17" Column="21" />
-      <File FileName="XamUDemy/Layouts/GridLayout.xaml" Line="64" Column="1" />
-      <File FileName="XamUDemy/Layouts/GridLayout.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Layouts/RelativeLayout.xaml.cs" Line="10" Column="32" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="11" Column="35" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Pages/ImagePage.xaml" Line="17" Column="60" />
+      <File FileName="XamUDemy/Pages/ImagePage.xaml.cs" Line="39" Column="106" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedResource.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedImage.xaml" Line="4" Column="5" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedImage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

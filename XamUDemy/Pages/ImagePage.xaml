@@ -8,9 +8,11 @@
     <!--Activity Indicator false by default-->
     <AbsoluteLayout>
         <ActivityIndicator
-            IsRunning= "{Binding Source=
+            IsRunning= 
+                "{Binding Source=
                 {x:Reference image}, 
                 Path= IsLoading}"
+            x:Name= "ActivityIndicator"
             Color= "Aqua"
                 AbsoluteLayout.LayoutBounds= "0.5, 0.5, 100, 100"
                 AbsoluteLayout.LayoutFlags= "PositionProportional" />

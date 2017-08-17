@@ -32,7 +32,11 @@ namespace XamUDemy.Pages
 
             //Setting imageSource to image.Source object 
             image.Source = imageSource;
-            image.Source = "hhttp://lorempixel.com/1920/1080/sports/7/";
+            image.Source = "http://lorempixel.com/1920/1080/sports/7/";
+
+            //ActivityIndicator.BindingContext = image;
+            //ActivityIndicator.SetBinding(ActivityIndicator.IsVisibleProperty, nameof(image.IsLoading));
+            //ActivityIndicator.SetBinding(ActivityIndicator.IsRunningProperty, nameof(image.IsLoading));
         }
     }
 }
