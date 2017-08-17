@@ -70,9 +70,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\jordan.png" />
-    <EmbeddedResource Include="MarkupExtensions\EmbeddedImage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -118,9 +115,7 @@
     <Compile Include="Pages\ImagePage.xaml.cs">
       <DependentUpon>ImagePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MarkupExtensions\EmbeddedImage.xaml.cs">
-      <DependentUpon>EmbeddedImage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="MarkupExtensions\EmbeddedImage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
