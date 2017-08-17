@@ -6,9 +6,11 @@ namespace XamUDemy.MarkupExtensions
 {
     public class EmbeddedImage : IMarkupExtension
     {
+        public string ResourceID { get; set; }
+
         public object ProvideValue(IServiceProvider serviceProvider)
         {
-            return ImageSource.FromResource("XamUDemy.Images.jordan.png");
+            return ImageSource.FromResource(ResourceID);
         }
     }
 }
