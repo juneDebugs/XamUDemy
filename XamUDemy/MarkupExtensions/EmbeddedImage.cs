@@ -5,6 +5,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace XamUDemy.MarkupExtensions
 {
+    [ContentProperty("ResourceID")]
+
     public class EmbeddedImage : IMarkupExtension
     {
         public string ResourceID { get; set; }
