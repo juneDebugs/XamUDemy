@@ -12,6 +12,7 @@ namespace XamUDemy.iOS
     {
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            //This line kicks off Xamarin.Forms
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());
