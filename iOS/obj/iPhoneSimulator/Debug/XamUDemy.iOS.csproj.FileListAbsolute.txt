@@ -1,5 +1,7 @@
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/XamUDemy.iOS.exe
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/XamUDemy.iOS.pdb
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.Abstractions.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.iOS.dll
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
@@ -14,6 +16,8 @@
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.Abstractions.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.iOS.xml
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
@@ -51,8 +55,10 @@
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/jordan.png
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.csprojResolveAssemblyReference.cache
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.csproj.CoreCompileInputs.cache
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.exe
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.pdb
+/Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/dog.png

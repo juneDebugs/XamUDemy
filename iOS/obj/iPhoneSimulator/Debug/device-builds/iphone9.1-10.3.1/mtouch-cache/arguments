@@ -21,6 +21,10 @@
 	/Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-symbols.list \
 	--dsym=no \
 	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
@@ -314,6 +318,10 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
