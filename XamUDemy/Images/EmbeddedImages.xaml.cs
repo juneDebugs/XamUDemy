@@ -7,11 +7,11 @@ namespace XamUDemy
 {
     public partial class EmbeddedImages : ContentPage
     {
-        //public EmbeddedImages()
-        //{
-        //    InitializeComponent();
+        public EmbeddedImages()
+        {
+            InitializeComponent();
 
-        //    image.Source = ImageSource.FromResource("XamUDemy.Images.jordan.png");
-        //}
+            image.Source = ImageSource.FromResource("XamUDemy.ResourceImages.jordan.png");
+        }
     }
 }
