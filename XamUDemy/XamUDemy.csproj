@@ -32,7 +32,6 @@
     <EmbeddedResource Include="Images\EmbeddedImages.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ResourceImages\jordan.png" />
     <EmbeddedResource Include="Pages\ButtonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -66,7 +65,7 @@
     <EmbeddedResource Include="Pages\CreditPageRelative.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\ImagePage.xaml">
+    <EmbeddedResource Include="Pages\ActivityIndicatorPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Images\jordan.png" />
@@ -115,12 +114,12 @@
     <Compile Include="Pages\ CellDialPageGrid.xaml.cs">
       <DependentUpon>CellDialPageGrid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ImagePage.xaml.cs">
-      <DependentUpon>ImagePage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MarkupExtensions\EmbeddedImage.cs" />
     <Compile Include="Pages\ImageCirclePage.xaml.cs">
       <DependentUpon>ImageCirclePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ActivityIndicatorPage.xaml.cs">
+      <DependentUpon>ActivityIndicatorPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -142,7 +141,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
-    <Folder Include="ResourceImages\" />
     <Folder Include="MarkupExtensions\" />
     <Folder Include="Pages\" />
     <Folder Include="Layouts\" />
