@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/ImagePage.xaml.cs">
     <Files>
       <File FileName="XamUDemy/MarkupExtensions/EmbeddedImage.cs" Line="23" Column="1" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="10" Column="5" />
+      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="17" Column="1" />
       <File FileName="XamUDemy/Pages/ImagePage.xaml" Line="28" Column="1" />
       <File FileName="XamUDemy/Pages/ImagePage.xaml.cs" Line="19" Column="13" />
     </Files>
