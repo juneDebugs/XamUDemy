@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
+using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
 
 namespace XamUDemy.iOS
@@ -14,6 +14,9 @@ namespace XamUDemy.iOS
         {
             //This line kicks off Xamarin.Forms
             global::Xamarin.Forms.Forms.Init();
+
+            //This line kicks off the ImageCircle Renderer
+            ImageCircleRenderer.Init();
 
             LoadApplication(new App());
 
