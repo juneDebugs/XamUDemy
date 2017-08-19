@@ -18,7 +18,7 @@ namespace XamUDemy.Lists
                 "Dr. Dre"
             };
 
-
+            listView.ItemsSource = names;
         }
     }
 }

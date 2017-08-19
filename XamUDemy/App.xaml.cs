@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using XamUDemy.Pages;
 using XamUDemy.Layouts;
+using XamUDemy.Lists;
 
 namespace XamUDemy
 {
@@ -10,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new EmbeddedImagesPageXAML();
+            MainPage = new ListViewXAML();
         }
 
         protected override void OnStart()
