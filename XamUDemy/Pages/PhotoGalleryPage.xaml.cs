@@ -38,9 +38,14 @@ namespace XamUDemy.Pages
             LoadImage();
         }
 
+        void Next_Clicked(object sender, System.EventArgs e)
+        {
+            _currentImagedId++;
+            if
+                (_currentImagedId == 11)
+                _currentImagedId = 1;
 
-
-
-
+            LoadImage();
+        }
     }
 }
