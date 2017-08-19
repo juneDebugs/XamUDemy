@@ -5,8 +5,6 @@
         xmlns:local="clr-namespace:XamUDemy.MarkupExtensions"
         x:Class="XamUDemy.EmbeddedImages">
 
-      <!--xmlns:local="clr-namespace:XamUDemy.MarkupExtensions"-->
-
     <Image 
         Source="{local:EmbeddedResource XamUDemy.ResourceImages.jordan.png}" 
         x:Name="image" 
