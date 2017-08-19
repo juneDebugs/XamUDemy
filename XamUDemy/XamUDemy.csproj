@@ -75,6 +75,9 @@
     <EmbeddedResource Include="Pages\PhotoGalleryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\EmbeddedImagesPageXAML.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -126,6 +129,9 @@
     </Compile>
     <Compile Include="Pages\PhotoGalleryPage.xaml.cs">
       <DependentUpon>PhotoGalleryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EmbeddedImagesPageXAML.xaml.cs">
+      <DependentUpon>EmbeddedImagesPageXAML.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
