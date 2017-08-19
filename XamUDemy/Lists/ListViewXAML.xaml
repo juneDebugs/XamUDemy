@@ -2,22 +2,25 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.Lists.ListViewXAML">
+    x:Class="XamUDemy.Lists.ListViewXAML"
+    Padding= "0, 30, 0, 0">
 
     <!-- Different style of Seperators
             SeparatorVisibility= "None"-->
     
     <ListView
         x:Name= "listView" 
-        SeparatorColor= "Fuchsia" >
+        SeparatorColor= "Gold" >
 
+       <!-- <TextCell
+                    Text= "{Binding Name}" Detail= "{Binding Status}"
+                    TextColor= "Blue" DetailColor= "Gray"/>-->
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell
-                    Text= "{Binding Name}" Detail= "{Binding Status}"
-                    TextColor= "Lime" DetailColor= "Purple"/>
-
-                
+                <ImageCell
+                    Text= "{Binding Name}" Detail= "{Binding Status}" ImageSource= "{Binding ImageURL}"
+                    TextColor= "Blue" DetailColor= "Gray"/>
+                   
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
