@@ -20,8 +20,11 @@
             AbsoluteLayout.LayoutBounds= "0.5, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "PositionProportional"
             Clicked="Previous_Clicked"
             Text="previous" />
-        
 
-
+        <Button
+            AbsoluteLayout.LayoutBounds= "0.95, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "Position Proportional"
+            Clicked= "Next_Clicked"
+            Text="next" />
+            
     </AbsoluteLayout>
 </ContentPage>
