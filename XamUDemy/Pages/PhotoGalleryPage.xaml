@@ -10,7 +10,11 @@
             AbsoluteLayout.LayoutBounds= "0, 0, 1, 1" AbsoluteLayout.LayoutFlags= "All"
             x:Name= "image" />
 
-        
+        <ActivityIndicator
+            AbsoluteLayout.LayoutBounds= "0.5, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "PositionProportional"            Color= "Aqua"
+            IsRunning= 
+                "{Binding source={x:Reference image},
+                Path= IsLoading}" />
 
 
 
