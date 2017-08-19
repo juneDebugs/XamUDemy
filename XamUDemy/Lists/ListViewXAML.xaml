@@ -9,6 +9,12 @@
     
     <ListView
         x:Name= "listView" 
-        SeparatorColor= "Fuchsia" />
-       
+        SeparatorColor= "Fuchsia" >
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
