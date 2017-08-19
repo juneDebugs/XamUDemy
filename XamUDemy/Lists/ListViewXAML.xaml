@@ -13,7 +13,10 @@
 
         <ListView.ItemTemplate>
             <DataTemplate>
+                <TextCell
+                    Text="{Binding Name}" Detail= "{Binding Status}" />
 
+                
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
