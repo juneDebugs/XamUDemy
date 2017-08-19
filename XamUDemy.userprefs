@@ -1,13 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/PhotoGalleryPage.xaml">
-    <Files>
-      <File FileName="XamUDemy/Pages/PhotoGalleryPage.xaml" Line="27" Column="27" />
-      <File FileName="XamUDemy/Pages/PhotoGalleryPage.xaml.cs" Line="41" Column="26" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="13" Column="44" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml" Line="8" Column="8" />
-      <File FileName="XamUDemy/Images/EmbeddedImages.xaml.cs" Line="10" Column="32" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

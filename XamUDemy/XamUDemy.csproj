@@ -29,7 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="Images\EmbeddedImages.xaml">
+    <EmbeddedResource Include="Images\EmbeddedImagesCSharp.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ButtonPage.xaml">
@@ -81,8 +81,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Images\EmbeddedImages.xaml.cs">
-      <DependentUpon>EmbeddedImages.xaml</DependentUpon>
+    <Compile Include="Images\EmbeddedImagesCSharp.xaml.cs">
+      <DependentUpon>EmbeddedImagesCSharp.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ButtonPage.xaml.cs">
       <DependentUpon>ButtonPage.xaml</DependentUpon>
