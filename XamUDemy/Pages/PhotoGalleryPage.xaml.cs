@@ -23,7 +23,7 @@ namespace XamUDemy.Pages
         {
             image.Source = new UriImageSource
             {
-                Uri = new Uri(String.Format("http://google.com/{0}", _currentImagedId)),
+                Uri = new Uri(String.Format("http://lorempixel.com/1920/1080/city/{0}", _currentImagedId)),
                 CachingEnabled = false
             };
         }
@@ -46,6 +46,7 @@ namespace XamUDemy.Pages
                 _currentImagedId = 1;
 
             LoadImage();
+           
         }
     }
 }
