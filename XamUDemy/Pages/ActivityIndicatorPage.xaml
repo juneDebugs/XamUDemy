@@ -2,7 +2,7 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.Pages.ImagePage"
+    x:Class="XamUDemy.Pages.ActivityIndicatorPage"
     BackgroundColor= "Black">
 
     <!--Activity Indicator false by default-->
