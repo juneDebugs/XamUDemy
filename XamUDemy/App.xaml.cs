@@ -10,7 +10,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ImageCirclePage();
+            MainPage = new PhotoGalleryPage();
         }
 
         protected override void OnStart()

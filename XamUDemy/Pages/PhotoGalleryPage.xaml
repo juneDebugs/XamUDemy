@@ -13,7 +13,7 @@
         <ActivityIndicator
             AbsoluteLayout.LayoutBounds= "0.5, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "PositionProportional"            Color= "Aqua"
             IsRunning= 
-                "{Binding source={x:Reference image},
+                "{Binding Source={x:Reference image},
                 Path= IsLoading}" />
 
         <Button
@@ -22,7 +22,7 @@
             Text="previous" />
 
         <Button
-            AbsoluteLayout.LayoutBounds= "0.95, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "Position Proportional"
+            AbsoluteLayout.LayoutBounds= "0.95, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "PositionProportional"
             Clicked= "Next_Clicked"
             Text="next" />
             
