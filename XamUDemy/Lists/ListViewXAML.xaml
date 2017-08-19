@@ -14,7 +14,8 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell
-                    Text="{Binding Name}" Detail= "{Binding Status}" />
+                    Text= "{Binding Name}" Detail= "{Binding Status}"
+                    TextColor= "Lime" DetailColor= "Purple"/>
 
                 
             </DataTemplate>
