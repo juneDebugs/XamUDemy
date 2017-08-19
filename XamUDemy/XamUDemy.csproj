@@ -72,6 +72,9 @@
     <EmbeddedResource Include="Pages\ImageCirclePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PhotoGalleryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -120,6 +123,9 @@
     </Compile>
     <Compile Include="Pages\ActivityIndicatorPage.xaml.cs">
       <DependentUpon>ActivityIndicatorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PhotoGalleryPage.xaml.cs">
+      <DependentUpon>PhotoGalleryPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
