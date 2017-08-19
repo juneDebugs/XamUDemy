@@ -16,8 +16,10 @@
                 "{Binding source={x:Reference image},
                 Path= IsLoading}" />
 
-
-
+        <Button
+            AbsoluteLayout.LayoutBounds= "0.5, 0.05, 100, 100" AbsoluteLayout.LayoutFlags= "PositionProportional"
+            Clicked="Previous_Clicked"
+            Text="previous" />
         
 
 
