@@ -139,6 +139,7 @@
     <Compile Include="Lists\ListViewXAML.xaml.cs">
       <DependentUpon>ListViewXAML.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Contact.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Models/Contact.cs">
     <Files>
-      <File FileName="XamUDemy/Lists/ListViewXAML.xaml" Line="8" Column="23" />
+      <File FileName="XamUDemy/Lists/ListViewXAML.xaml" Line="15" Column="1" />
       <File FileName="XamUDemy/Lists/ListViewXAML.xaml.cs" Line="24" Column="2" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="13" Column="32" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="13" Column="13" />
+      <File FileName="XamUDemy/Models/Contact.cs" Line="8" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
