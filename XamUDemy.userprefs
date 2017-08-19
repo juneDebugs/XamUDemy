@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/EmbeddedImagesPageXAML.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/App.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/Pages/EmbeddedImagesPageXAML.xaml" Line="6" Column="1" />
-      <File FileName="XamUDemy/Pages/EmbeddedImagesPageXAML.xaml.cs" Line="8" Column="48" />
+      <File FileName="XamUDemy/Pages/EmbeddedImagesPageXAML.xaml" Line="11" Column="39" />
+      <File FileName="XamUDemy/MarkupExtensions/EmbeddedImage.cs" Line="6" Column="11" />
+      <File FileName="XamUDemy/Pages/EmbeddedImagesPageXAML.xaml.cs" Line="14" Column="83" />
+      <File FileName="XamUDemy/Images/EmbeddedImagesCSharp.xaml.cs" Line="15" Column="13" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="13" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -10,6 +10,8 @@ namespace XamUDemy.Pages
         public EmbeddedImagesPageXAML()
         {
             InitializeComponent();
+
+            image.Source = ImageSource.FromResource("XamUDemy.Images.jordan.png");
         }
     }
 }
