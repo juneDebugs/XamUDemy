@@ -11,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ListViewXamlGrouping();
+            MainPage = new ListViewXamlSelections();
         }
 
         protected override void OnStart()

@@ -10,8 +10,11 @@ namespace XamUDemy.Lists
     {
         void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            var contact = e.SelectedItem as Contact;
-            DisplayAlert("Selected", contact.Name, "OK");
+            //This is how you disable Selections
+            listView.SelectedItem = null;
+
+            //var contact = e.SelectedItem as Contact;
+            //DisplayAlert("Selected", contact.Name, "OK");
         }
 
         void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
