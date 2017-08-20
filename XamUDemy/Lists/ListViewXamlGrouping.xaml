@@ -8,7 +8,11 @@
     <ListView
         x:Name= "listView" 
         SeparatorColor= "Gold" 
-        HasUnevenRows= "true" >
+        HasUnevenRows= "true"
+        
+        IsGroupingEnabled= "True"
+        GroupDisplayBinding= "{Binding Title}"
+        GroupShortNameBinding= "{Binding ShortTitle}">
 
         <ListView.ItemTemplate>
             <DataTemplate>
