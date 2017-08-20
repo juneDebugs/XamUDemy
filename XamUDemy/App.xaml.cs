@@ -12,7 +12,11 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HierarchicalNavigationFirstPage());
+            MainPage = new NavigationPage(new HierarchicalNavigationFirstPage())
+            {
+                BarBackgroundColor = Color.Aqua,
+                BarTextColor = Color.Black
+            };
         }
 
         protected override void OnStart()

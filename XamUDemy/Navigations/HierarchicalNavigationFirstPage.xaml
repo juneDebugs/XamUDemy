@@ -3,7 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Navigations.HierarchicalNavigationFirstPage"
-    Title= "FirstPage">
+    Title= "FirstPage"
+
+    NavigationPage.HasNavigationBar= "false" >
 
     <StackLayout
         HorizontalOptions= "Center" VerticalOptions= "Center" >
