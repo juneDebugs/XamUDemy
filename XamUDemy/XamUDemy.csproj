@@ -96,6 +96,9 @@
     <EmbeddedResource Include="Lists\ListViewXamlPullToRefresh.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lists\ListViewXamlSearchBar.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -170,6 +173,9 @@
     </Compile>
     <Compile Include="Lists\ListViewXamlPullToRefresh.xaml.cs">
       <DependentUpon>ListViewXamlPullToRefresh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lists\ListViewXamlSearchBar.xaml.cs">
+      <DependentUpon>ListViewXamlSearchBar.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
