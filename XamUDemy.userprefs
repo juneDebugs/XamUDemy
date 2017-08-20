@@ -5,8 +5,9 @@
       <File FileName="XamUDemy/Lists/ListViewXamlPullToRefresh.xaml.cs" Line="19" Column="15" />
       <File FileName="XamUDemy/Lists/ListViewXamlSelections.xaml.cs" Line="33" Column="5" />
       <File FileName="XamUDemy/App.xaml.cs" Line="14" Column="53" />
-      <File FileName="XamUDemy/Lists/ListViewXamlSearchBar.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Lists/ListViewXamlSearchBar.xaml" Line="22" Column="15" />
       <File FileName="XamUDemy/Lists/ListViewXamlSearchBar.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Lists/ListViewXamlSelections.xaml" Line="6" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
