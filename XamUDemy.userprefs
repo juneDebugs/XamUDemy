@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Models/SearchGroup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Services/SearchService.cs">
     <Files>
       <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml" Line="21" Column="31" />
-      <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml.cs" Line="60" Column="17" />
-      <File FileName="XamUDemy/Models/Search.cs" Line="28" Column="1" />
-      <File FileName="XamUDemy/Models/SearchGroup.cs" Line="16" Column="15" />
+      <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml.cs" Line="30" Column="1" />
+      <File FileName="XamUDemy/Models/Search.cs" Line="19" Column="30" />
+      <File FileName="XamUDemy/Models/SearchGroup.cs" Line="10" Column="25" />
+      <File FileName="XamUDemy/Services/SearchService.cs" Line="11" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

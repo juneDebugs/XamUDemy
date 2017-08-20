@@ -185,6 +185,7 @@
     </Compile>
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
+    <Compile Include="Services\SearchService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
