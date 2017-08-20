@@ -5,10 +5,14 @@
     x:Class="XamUDemy.Lists.ListViewXamlSelections"
     Padding= "0, 40, 0, 0">
 
-    <ListView>
-
-
-
-
+    <ListView
+        x:Name= "listview">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell
+                        Text= "{Binding Name"
+                        Detail= "{Binding Status" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
     </ListView>
 </ContentPage>
