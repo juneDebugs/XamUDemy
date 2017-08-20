@@ -12,6 +12,7 @@
             TextColor= "Gray" 
 
             TextChanged="Handle_TextChanged"/>
+        
             <ListView
                 x:Name= "listView" >
                 
@@ -22,6 +23,7 @@
                                 Detail= "{Binding Status}" />
                         </DataTemplate>
                     </ListView.ItemTemplate>
+            
             </ListView>
     </StackLayout>
 </ContentPage>
