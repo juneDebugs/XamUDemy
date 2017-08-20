@@ -11,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ListViewXamlSearchBar();
+            MainPage = new AirBnbListViewPage();
         }
 
         protected override void OnStart()

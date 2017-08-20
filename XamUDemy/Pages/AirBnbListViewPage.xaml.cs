@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using XamUDemy.Models;
+using XamUDemy.Services;
 
 namespace XamUDemy.Pages
 {
@@ -46,7 +47,7 @@ namespace XamUDemy.Pages
             _searchGroups[0].Remove(search);
 
             //This updates the backend of the changes
-            _searchService.Delete(search.Id);
+            _searchService.DeleteSearch(search.Id);
         }
 
 
