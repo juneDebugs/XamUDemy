@@ -16,7 +16,20 @@
             TextChanged= "OnSearchTextChanged"
             x:Name= "searchBar" />
 
+            <ListView
+                x:Name= "listView"
+                IsGroupingEnabled= "true"
+                GroupDisplayBinding= "{Binding Title}"
+                IsPullToRefreshEnabled= "true"
+                Refreshing= "OnRefreshing"
+                ItemSelected= "OnSearchSelected" >
 
+                    
+
+
+
+            </ListView>
         
     </StackLayout>  
+
 </ContentPage>
