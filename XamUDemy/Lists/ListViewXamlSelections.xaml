@@ -6,7 +6,11 @@
     Padding= "0, 40, 0, 0">
 
     <ListView
-        x:Name= "listview">
+        x:Name= "listview"
+        
+        ItemTapped="Handle_ItemTapped"
+        ItemSelected="Handle_ItemSelected" >
+        
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell
