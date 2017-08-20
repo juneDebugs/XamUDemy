@@ -10,11 +10,13 @@
             iOS= "0, 20, 0, 0" />
     </ContentPage.Padding>
 
+    <StackLayout>
+        <SearchBar
+            Placeholder= "Search..."
+            TextChanged= "OnSearchTextChanged"
+            x:Name= "searchBar" />
+
 
         
-
-
-
-
-    
+    </StackLayout>  
 </ContentPage>
