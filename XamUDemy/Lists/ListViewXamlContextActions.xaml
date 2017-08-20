@@ -10,9 +10,16 @@
         
             <ListView.ItemTemplate>
                 <DataTemplate>
+                
                     <TextCell
                         Text= "{Binding Name}"
-                        Detail= "{Binding Status}" />
+                        Detail= "{Binding Status}" >
+                            <TextCell.ContextActions>
+                                <MenuItem Text= "Call" Clicked= "Call_Clicked" />
+                                <MenuItem Text= "Delete" Clicked= "Delete_Clicked" />
+                            </TextCell.ContextActions>
+                    </TextCell>
+                
                 </DataTemplate>
             </ListView.ItemTemplate>
     </ListView>

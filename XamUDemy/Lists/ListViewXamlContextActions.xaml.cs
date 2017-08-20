@@ -8,24 +8,16 @@ namespace XamUDemy.Lists
 {
     public partial class ListViewXamlContextActions : ContentPage
     {
-		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
-		{
-			//This is how you disable Selections
-			listView.SelectedItem = null;
+        void Call_Clicked(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
 
-			//var contact = e.SelectedItem as Contact;
-			//DisplayAlert("Selected", contact.Name, "OK");
-		}
 
-		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
-		{
-			var contact = e.Item as Contact;
-			DisplayAlert("Tapped", contact.Name, "OK");
-		}
 
         public ListViewXamlContextActions()
 		{
-			InitializeComponent();
+            InitializeComponent();
 
 			listView.ItemsSource = new List<Contact>{
 				new Contact { Name = "Eminem", ImageURL = "http://lorempixel.com/100/100/people/1"},
