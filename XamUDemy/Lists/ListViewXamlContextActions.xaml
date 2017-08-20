@@ -15,8 +15,15 @@
                         Text= "{Binding Name}"
                         Detail= "{Binding Status}" >
                             <TextCell.ContextActions>
-                                <MenuItem Text= "Call" Clicked= "Call_Clicked" />
-                                <MenuItem Text= "Delete" Clicked= "Delete_Clicked" />
+                                <MenuItem 
+                                    Text= "Call" 
+                                    Clicked= "Call_Clicked" 
+                                    CommandParameter= "{Binding .}"/>
+                                <MenuItem 
+                                    Text= "Delete" 
+                                    Clicked= "Delete_Clicked"  
+                                    IsDestructive= "true"
+                                    CommandParameter= "{Binding .}"/>
                             </TextCell.ContextActions>
                     </TextCell>
                 

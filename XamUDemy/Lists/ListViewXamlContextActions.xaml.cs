@@ -8,8 +8,14 @@ namespace XamUDemy.Lists
 {
     public partial class ListViewXamlContextActions : ContentPage
     {
+        void Delete_Clicked(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         void Call_Clicked(object sender, System.EventArgs e)
         {
+            //These are Event Handlers
             throw new NotImplementedException();
         }
 
