@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Lists/ListViewXamlViewCell.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Models/ContactGroup.cs">
     <Files>
-      <File FileName="XamUDemy/Lists/ListViewXAML.xaml" Line="28" Column="1" />
-      <File FileName="XamUDemy/Lists/ListViewXAML.xaml.cs" Line="26" Column="98" />
+      <File FileName="XamUDemy/Lists/ListViewXamlTextImageCell.xaml" Line="28" Column="1" />
+      <File FileName="XamUDemy/Lists/ListViewXamlTextImageCellxaml.cs" Line="25" Column="9" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="13" Column="13" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="14" Column="48" />
       <File FileName="XamUDemy/Models/Contact.cs" Line="11" Column="45" />
-      <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml" Line="6" Column="1" />
-      <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml.cs" Line="8" Column="46" />
+      <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml" Line="43" Column="1" />
+      <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml.cs" Line="14" Column="13" />
+      <File FileName="XamUDemy/Models/ContactGroup.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Models/ContactGroup.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Models/ContactGroup.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint enabled="false" file="/Users/junecho/Projects/XamUDemy/XamUDemy/Images/EmbeddedImages.xaml" relfile="XamUDemy/Images/EmbeddedImages.xaml" line="2" column="1" />
+      <Breakpoint file="/Users/junecho/Projects/XamUDemy/XamUDemy/Lists/ListViewXamlViewCell.xaml" relfile="XamUDemy/Lists/ListViewXamlViewCell.xaml" line="8" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
