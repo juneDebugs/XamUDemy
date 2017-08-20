@@ -4,8 +4,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Navigations.HierarchicalNavigationSecondPage">
 
+    <StackLayout
+        HorizontalOptions= "Center" VerticalOptions= "Center">
 
+            <Label
+                Text= "2nd Page" />
 
+            <Button
+                Text= "Back"
+                Clicked= "Handle_Clicked" />
 
-    
+    </StackLayout>
 </ContentPage>
