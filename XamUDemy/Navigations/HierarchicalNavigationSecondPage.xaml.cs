@@ -17,5 +17,13 @@ namespace XamUDemy.Navigations
 		{
             await Navigation.PopAsync();
 		}
+
+        //This prevents Android and Windows phone to use the physical "Back" Button
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
+
+
     }
 }
