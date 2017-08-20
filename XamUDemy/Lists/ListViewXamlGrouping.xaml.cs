@@ -14,12 +14,12 @@ namespace XamUDemy.Lists
 
             listView.ItemsSource = new List<ContactGroup>{
 
-                new ContactGroup("J", "J"){
+                new ContactGroup("Basketball", "B"){
                    new Contact { Name = "Jordan", ImageURL = "http://lorempixel.com/100/100/people/2",
                     Status= "Hey, let's talk!"},
                 },
 
-                new ContactGroup("E", "E"){
+                new ContactGroup("Music", "M"){
                     new Contact { Name = "Eminem", ImageURL = "http://lorempixel.com/100/100/people/1"},
                 },
 
