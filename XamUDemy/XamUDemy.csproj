@@ -184,6 +184,7 @@
       <DependentUpon>AirBnbListViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Search.cs" />
+    <Compile Include="Models\SearchGroup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

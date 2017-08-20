@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XamUDemy.Models;
 
 namespace XamUDemy.Pages
 {
@@ -25,7 +26,7 @@ namespace XamUDemy.Pages
             PopulateListView(_searchService.GetRecentSearches(e.NewTextValue));
         }
 
-        public void PopulateListView (IEnumerable<Search> searches)
+        private void PopulateListView (IEnumerable<Search> searches)
         {
             _searchGroups = new List<SearchGroup>
             {
@@ -35,7 +36,7 @@ namespace XamUDemy.Pages
             listView.ItemsSource = _searchGroups;
         }
 
-        void OnDeleteClicked(object sender, System.EventArgs e)
+        private void OnDeleteClicked(object sender, System.EventArgs e)
         {
             var search = (sender as MenuItem).CommandParameter as Search;
 
@@ -49,14 +50,14 @@ namespace XamUDemy.Pages
         }
 
 
-		void OnRefreshing(object sender, System.EventArgs e)
+		private void OnRefreshing(object sender, System.EventArgs e)
 		{
             PopulateListView(_searchService.GetRecentSearches(searchBar.Text));
 
             listView.EndRefresh();
 		}
 		
-        void OnSearchSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        private void OnSearchSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
             var search = e.SelectedItem as Search;
             DisplayAlert("Selected", search.Location, "OK");
