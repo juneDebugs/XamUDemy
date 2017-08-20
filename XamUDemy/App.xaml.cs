@@ -11,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ListViewXamlContextActions();
+            MainPage = new ListViewXamlPullToRefresh();
         }
 
         protected override void OnStart()
