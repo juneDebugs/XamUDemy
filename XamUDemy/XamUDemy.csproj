@@ -102,7 +102,7 @@
     <EmbeddedResource Include="Pages\AirBnbListViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\HierarchicalNavigation.xaml">
+    <EmbeddedResource Include="Navigations\HierarchicalNavigationFirstPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -189,8 +189,8 @@
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\SearchGroup.cs" />
     <Compile Include="Services\SearchService.cs" />
-    <Compile Include="Navigations\HierarchicalNavigation.xaml.cs">
-      <DependentUpon>HierarchicalNavigation.xaml</DependentUpon>
+    <Compile Include="Navigations\HierarchicalNavigationFirstPage.xaml.cs">
+      <DependentUpon>HierarchicalNavigationFirstPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
