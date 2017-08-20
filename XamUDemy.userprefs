@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/AirBnbListViewPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/HierarchicalNavigation.xaml">
     <Files>
-      <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml" Line="21" Column="31" />
-      <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml.cs" Line="52" Column="9" />
-      <File FileName="XamUDemy/Models/Search.cs" Line="19" Column="30" />
-      <File FileName="XamUDemy/Models/SearchGroup.cs" Line="10" Column="25" />
-      <File FileName="XamUDemy/Services/SearchService.cs" Line="10" Column="31" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="14" Column="46" />
+      <File FileName="XamUDemy/Navigations/HierarchicalNavigation.xaml" Line="3" Column="5" />
+      <File FileName="XamUDemy/Navigations/HierarchicalNavigation.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
