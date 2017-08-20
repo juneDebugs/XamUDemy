@@ -6,9 +6,9 @@ using XamUDemy.Models;
 
 namespace XamUDemy.Lists
 {
-    public partial class ListViewXAML : ContentPage
+    public partial class ListViewXamlTextImageCell : ContentPage
     {
-        public ListViewXAML()
+        public ListViewXamlTextImageCell()
         {
             InitializeComponent();
 

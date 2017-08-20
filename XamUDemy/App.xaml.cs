@@ -11,7 +11,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ListViewXAML();
+            MainPage = new ListViewXamlViewCell();
         }
 
         protected override void OnStart()
