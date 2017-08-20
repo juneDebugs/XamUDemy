@@ -2,6 +2,7 @@
 using XamUDemy.Pages;
 using XamUDemy.Layouts;
 using XamUDemy.Lists;
+using XamUDemy.Navigations;
 
 namespace XamUDemy
 {
@@ -11,7 +12,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new AirBnbListViewPage();
+            MainPage = new NavigationPage(new HierarchicalNavigationFirstPage());
         }
 
         protected override void OnStart()

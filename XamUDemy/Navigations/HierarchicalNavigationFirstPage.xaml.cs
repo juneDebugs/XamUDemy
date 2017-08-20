@@ -5,11 +5,17 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Navigations
 {
-    public partial class HierarchicalNavigation : ContentPage
+    public partial class HierarchicalNavigationFirstPage : ContentPage
     {
-        public HierarchicalNavigation()
+
+        public HierarchicalNavigationFirstPage()
         {
             InitializeComponent();
         }
+
+		async void Handle_Clicked(object sender, System.EventArgs e)
+		{
+            await Navigation.PushAsync(new HierarchicalNavigationSecondPage());
+		}
     }
 }
