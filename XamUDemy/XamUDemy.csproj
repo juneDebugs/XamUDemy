@@ -108,7 +108,7 @@
     <EmbeddedResource Include="Navigations\HierarchicalNavigationSecondPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\TabbedPage.xaml">
+    <EmbeddedResource Include="Navigations\TabbedPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -201,8 +201,8 @@
     <Compile Include="Navigations\HierarchicalNavigationSecondPage.xaml.cs">
       <DependentUpon>HierarchicalNavigationSecondPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigations\TabbedPage.xaml.cs">
-      <DependentUpon>TabbedPage.xaml</DependentUpon>
+    <Compile Include="Navigations\TabbedPageXaml.xaml.cs">
+      <DependentUpon>TabbedPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

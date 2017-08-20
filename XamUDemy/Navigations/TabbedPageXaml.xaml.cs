@@ -5,11 +5,12 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Navigations
 {
-    public partial class TabbedPage : ContentPage
+    public partial class TabbedPageXaml : TabbedPage
     {
-        public TabbedPage()
+        public TabbedPageXaml()
         {
             InitializeComponent();
+
         }
     }
 }
