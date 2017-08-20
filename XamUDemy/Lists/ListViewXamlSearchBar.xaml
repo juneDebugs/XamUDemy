@@ -5,20 +5,25 @@
     x:Class="XamUDemy.Lists.ListViewXamlSearchBar"
     Padding= "0, 40, 0, 0">
 
-    <ListView
-        x:Name= "listView"
-        
-        ItemTapped="Handle_ItemTapped"
-        ItemSelected="Handle_ItemSelected" >
-        
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell
-                        Text= "{Binding Name}"
-                        Detail= "{Binding Status}" />
-                </DataTemplate>
-            </ListView.ItemTemplate>
-    </ListView>
+    <StackLayout>
+        <SearchBar 
+            Placeholder= "Search..."
+            PlaceholderColor= "Aqua"
+            TextColor= "Gray" 
+
+            TextChanged="Handle_TextChanged"/>
+            <ListView
+                x:Name= "listView" >
+                
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell
+                                Text= "{Binding Name}"
+                                Detail= "{Binding Status}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
 </ContentPage>
 
 
