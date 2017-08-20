@@ -7,7 +7,6 @@ namespace XamUDemy.Navigations
 {
     public partial class HierarchicalNavigationFirstPage : ContentPage
     {
-
         public HierarchicalNavigationFirstPage()
         {
             InitializeComponent();
