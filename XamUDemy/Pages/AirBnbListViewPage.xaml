@@ -4,7 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Pages.AirBnbListViewPage">
 
+    <ContentPage.Padding>
+        <OnPlatform 
+            x:TypeArguements= "Thickness"
+            iOS= "0, 20, 0, 0" />
+    </ContentPage.Padding>
 
+
+        
 
 
 
