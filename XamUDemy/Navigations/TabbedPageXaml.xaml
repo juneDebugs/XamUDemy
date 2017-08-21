@@ -9,14 +9,13 @@
     <!--This is how you reference an external page -->
     <local:ButtonPage Title= "ButtonPage" Icon= "batmanIcon.png" />
 
-    <ContentPage
-        Title= "Page1"
+    <NavigationPage
+        Title= "Photo Gallery"
         Icon= "batmanIcon.png">
-
-        <Label 
-            HorizontalOptions= "Center" VerticalOptions= "Center"
-            Text="Page1" />
-    </ContentPage>
+        <x:Arguments>
+            <local:PhotoGalleryPage />
+        </x:Arguments>
+    </NavigationPage>
 
     <ContentPage
         Title= "Page2"
