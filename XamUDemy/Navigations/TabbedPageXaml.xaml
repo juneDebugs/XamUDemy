@@ -5,7 +5,6 @@
     x:Class="XamUDemy.Navigations.TabbedPageXaml" 
 
     xmlns:local= "clr-namespace:XamUDemy.Pages" >
-
     <!--This is how you reference an external page -->
     <local:ButtonPage Title= "ButtonPage" Icon= "batmanIcon.png" />
 
