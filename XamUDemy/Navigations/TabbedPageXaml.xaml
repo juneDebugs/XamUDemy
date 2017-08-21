@@ -2,7 +2,12 @@
 <TabbedPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.Navigations.TabbedPageXaml">
+    x:Class="XamUDemy.Navigations.TabbedPageXaml" 
+
+    xmlns:local= "clr-namespace:XamUDemy.Pages" >
+
+    <!--This is how you reference an external page -->
+    <local:ButtonPage Title= "ButtonPage" Icon= "batmanIcon.png" />
 
     <ContentPage
         Title= "Page1"
