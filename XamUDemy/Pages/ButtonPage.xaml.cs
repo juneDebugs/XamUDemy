@@ -16,5 +16,10 @@ namespace XamUDemy.Pages
 		{
 			DisplayAlert("Title", "Do More", "OK");
 		}
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
     }
 }

@@ -19,7 +19,6 @@ namespace XamUDemy.Lists
             };
         }
 
-
         void Handle_Refreshing(object sender, System.EventArgs e)
         {
             listView.ItemsSource = GetContacts();
