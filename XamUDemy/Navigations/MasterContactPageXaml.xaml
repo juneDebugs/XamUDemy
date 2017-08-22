@@ -6,7 +6,10 @@
     Padding= "0, 20, 0, 0">
 
     <ListView
-        x:Name= "listView" >
+        x:Name= "listView" 
+
+        ItemSelected= "Handle_ItemSelected"
+        >
         <ListView.ItemTemplate>
 
             <DataTemplate>

@@ -8,10 +8,13 @@ namespace XamUDemy.Navigations
 {
     public partial class MasterContactPageXaml : ContentPage
     {
-        
-        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        //Async and Await for SelectedItem
+        async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            throw new NotImplementedException();
+            var contact = e.SelectedItem as Contact;
+            await Navigation.PushAsync(new MasterDetailPageXaml(contact));
+
+            listView.SelectedItem = null;
         }
 
         public MasterContactPageXaml()

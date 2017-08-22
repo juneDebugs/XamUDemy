@@ -14,6 +14,8 @@ namespace XamUDemy.Navigations
             if (contact == null)
                 throw new ArgumentNullException();
 
+            BindingContext = contact;
+
             InitializeComponent();
         }
     }
