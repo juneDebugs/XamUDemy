@@ -137,6 +137,9 @@
     <EmbeddedResource Include="DataAccess\ApplicationPropertiesXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\InstagramActivityFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -256,6 +259,9 @@
     </Compile>
     <Compile Include="DataAccess\ApplicationPropertiesXaml.xaml.cs">
       <DependentUpon>ApplicationPropertiesXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\InstagramActivityFeedPage.xaml.cs">
+      <DependentUpon>InstagramActivityFeedPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
