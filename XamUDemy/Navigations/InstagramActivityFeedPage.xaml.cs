@@ -19,7 +19,14 @@ namespace XamUDemy.Navigations
 
         void OnActivitySelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
+            if (e.SelectedItem == null)
+                return;
 
+            var activity = e.SelectedItem as Activity;
+
+            activityFeed.SelectedItem = null;
+
+            Navigation.PushAsync(new UserProfilePage(activity.UserId));
 
         }
 
