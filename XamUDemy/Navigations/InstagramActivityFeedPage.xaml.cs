@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 using XamUDemy.Models;
+using XamUDemy.Services;
 
 namespace XamUDemy.Navigations
 {
