@@ -12,7 +12,9 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MasterDetailContactXaml());
+            MainPage = new CarouselPage();
+
+                //new NavigationPage(new MasterDetailContactXaml());
 
             //MainPage = new NavigationPage(new HierarchicalNavigationFirstPage())
             //{

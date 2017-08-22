@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Navigations
 {
-    public partial class CarouselPageXaml : ContentPage
+    public partial class CarouselPageXaml : CarouselPage
     {
         public CarouselPageXaml()
         {

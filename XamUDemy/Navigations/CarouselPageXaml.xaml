@@ -4,11 +4,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Navigations.CarouselPageXaml">
 
+    <!--Title and Icons are not displayed on CarouselPage-->
+    <ContentPage>
+            <Label 
+                HorizontalOptions= "Center" VerticalOptions= "Center"
+                Text= "Welcome to Page 1" 
+                TextColor= "Fuchsia" />
+    </ContentPage>
 
-
-
-
-
-
-    
+    <ContentPage>
+            <Label 
+                HorizontalOptions= "Center" VerticalOptions= "Center"
+                Text= "Welcome to Page 2" />
+    </ContentPage>
+ 
 </CarouselPage>
