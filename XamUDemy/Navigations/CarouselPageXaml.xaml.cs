@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Navigations
 {
-    public partial class MasterDetailPageXaml : ContentPage
+    public partial class CarouselPageXaml : ContentPage
     {
-        public MasterDetailPageXaml()
+        public CarouselPageXaml()
         {
             InitializeComponent();
         }

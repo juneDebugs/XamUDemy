@@ -123,7 +123,7 @@
     <EmbeddedResource Include="Navigations\MasterDetailContactXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\MasterDetailPageXaml.xaml">
+    <EmbeddedResource Include="Navigations\CarouselPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -231,8 +231,8 @@
     <Compile Include="Navigations\MasterDetailContactXaml.xaml.cs">
       <DependentUpon>MasterDetailContactXaml.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigations\MasterDetailPageXaml.xaml.cs">
-      <DependentUpon>MasterDetailPageXaml.xaml</DependentUpon>
+    <Compile Include="Navigations\CarouselPageXaml.xaml.cs">
+      <DependentUpon>CarouselPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
