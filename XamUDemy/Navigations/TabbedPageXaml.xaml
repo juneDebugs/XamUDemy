@@ -8,6 +8,7 @@
     <!--This is how you reference an external page -->
     <local:ButtonPage Title= "ButtonPage" Icon= "batmanIcon.png" />
 
+    
     <NavigationPage
         Title= "Photo Gallery"
         Icon= "batmanIcon.png">

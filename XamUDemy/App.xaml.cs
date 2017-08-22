@@ -14,7 +14,7 @@ namespace XamUDemy
 
             MainPage = new NavigationPage(new InstagramMainPage());
 
-                //new NavigationPage(new MasterDetailContactXaml());
+            //new NavigationPage(new MasterDetailContactXaml());
 
             //MainPage = new NavigationPage(new HierarchicalNavigationFirstPage())
             //{

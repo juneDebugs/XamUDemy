@@ -5,13 +5,14 @@ namespace XamUDemy.Models
 {
     public class Activity 
     {
-        public int UserId { get; set; }
-        public string Description { get; set; }
+		public int UserId { get; set; }
+		public string Description { get; set; }
 
-        public string ImageURL
-        {
-            get { return $"http://lorempixel.com/100/100/people/{UserId}"; }
-        }
+		public string ImageUrl
+		{
+			get { return $"http://lorempixel.com/100/100/people/{UserId}"; }
+		}
+
     }
 }
 

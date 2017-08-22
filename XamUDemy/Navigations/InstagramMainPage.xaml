@@ -9,6 +9,5 @@
     <local:InstagramActivityFeedPage Title= "Activities" Icon="plus.png" />
 
     <local:InstagramMyProfilePage Title= "Profile" Icon= "batman.png" />        
-
     
 </TabbedPage>

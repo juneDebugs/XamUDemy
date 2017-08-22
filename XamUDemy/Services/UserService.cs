@@ -23,7 +23,7 @@ namespace XamUDemy.Services
 
         public User GetUser(int userId)
 		{
-			return _users.SingleOrDefault(u => u.Id == userId);
+			return _users.SingleOrDefault(x => x.Id == userId);
 		}
     }
 }
