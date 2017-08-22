@@ -15,7 +15,7 @@ namespace XamUDemy.DataAccess
             Application.Current.Properties["Name"] = title.Text;
 
             //This is for the switchCell
-            Application.Current.Properties["NotificationsEnabled"] = title.Text;
+            Application.Current.Properties["NotificationsEnabled"] = notifacationsEnabled.On;
         }
 
         public ApplicationPropertiesXaml()

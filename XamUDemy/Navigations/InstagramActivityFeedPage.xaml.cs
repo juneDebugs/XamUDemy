@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
+using XamUDemy.Models;
 
 namespace XamUDemy.Navigations
 {
