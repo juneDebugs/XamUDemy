@@ -6,7 +6,7 @@
 
     Title= "{Binding Name}"
     Padding= "0, 40, 0, 0"
-    xmlns:ic= "clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions" >
+    xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions" >
 
     <StackLayout>
         <Label

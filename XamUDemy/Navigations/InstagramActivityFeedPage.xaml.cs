@@ -27,7 +27,7 @@ namespace XamUDemy.Navigations
 
             activityFeed.SelectedItem = null;
 
-            Navigation.PushAsync(new UserProfilePage(activity.UserId));
+            Navigation.PushAsync(new InstagramUserProfilePage(activity.UserId));
 
         }
 

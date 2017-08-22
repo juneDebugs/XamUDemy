@@ -11,7 +11,7 @@
                 <TableSection>
                     <EntryCell
                         x:Name= "title"
-                        Text= "{Binding Title"
+                        Text= "{Binding Title}"
                         Label= "Title"
                         Placeholder= "(Shopping)" 
                         Completed= "OnChange"/>
@@ -19,7 +19,7 @@
                     <SwitchCell
                         x:Name= "notifacationsEnabled"
                         Text= "Notifications"
-                        On= "{Binding NotificationsEnabled" 
+                        On= "{Binding NotificationsEnabled}" 
                         OnChanged= "OnChange" />
                 </TableSection>
             </TableRoot>

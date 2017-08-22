@@ -12,7 +12,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ToolbarItemsPageXaml());
+            MainPage = new NavigationPage(new InstagramMainPage());
 
                 //new NavigationPage(new MasterDetailContactXaml());
 

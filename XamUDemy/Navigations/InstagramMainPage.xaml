@@ -4,11 +4,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Navigations.InstagramMainPage"
 
-    xmlns:local="clr-namespace: XamUDemy.Navigations" >
+    xmlns:local="clr-namespace:XamUDemy.Navigations" >
 
     <local:InstagramActivityFeedPage Title= "Activities" Icon="plus.png" />
 
-    <local:MyProfilePage Title= "Profile" Icon= "batman.png" />        
+    <local:InstagramMyProfilePage Title= "Profile" Icon= "batman.png" />        
 
     
 </TabbedPage>
