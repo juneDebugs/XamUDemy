@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Navigations
 {
-    public partial class InstagramMainPage : ContentPage
+    public partial class InstagramMainPage : TabbedPage
     {
         public InstagramMainPage()
         {
