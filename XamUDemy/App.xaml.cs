@@ -12,7 +12,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new CarouselPage();
+            MainPage = new ConfirmationBoxXaml();
 
                 //new NavigationPage(new MasterDetailContactXaml());
 
