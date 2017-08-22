@@ -269,6 +269,7 @@
     <Compile Include="Navigations\InstagramMainPage.xaml.cs">
       <DependentUpon>InstagramMainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
