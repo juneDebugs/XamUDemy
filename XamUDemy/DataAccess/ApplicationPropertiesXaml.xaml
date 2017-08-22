@@ -13,12 +13,14 @@
                         x:Name= "title"
                         Text= "{Binding Title"
                         Label= "Title"
-                        Placeholder= "(Shopping)" />
+                        Placeholder= "(Shopping)" 
+                        Completed= "OnChange"/>
 
                     <SwitchCell
                         x:Name= "notifacationsEnabled"
                         Text= "Notifications"
-                        On= "{Binding NotificationsEnabled" />
+                        On= "{Binding NotificationsEnabled" 
+                        OnChanged= "OnChange" />
                 </TableSection>
             </TableRoot>
 
