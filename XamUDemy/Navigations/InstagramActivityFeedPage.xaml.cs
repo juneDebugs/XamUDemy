@@ -10,7 +10,6 @@ namespace XamUDemy.Navigations
     {
         private ActivityService _service = new ActivityService();
 
-
         public InstagramActivityFeedPage()
         {
             InitializeComponent();
@@ -28,9 +27,6 @@ namespace XamUDemy.Navigations
             activityFeed.SelectedItem = null;
 
             Navigation.PushAsync(new InstagramUserProfilePage(activity.UserId));
-
         }
-
-
     }
 }

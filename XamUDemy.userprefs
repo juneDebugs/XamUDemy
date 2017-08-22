@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Lists/ListViewXamlViewCell.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/InstagramActivityFeedPage.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml" Line="41" Column="1" />
+      <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml" Line="29" Column="31" />
       <File FileName="XamUDemy/Navigations/InstagramUserProfilePage.xaml.cs" Line="9" Column="50" />
       <File FileName="XamUDemy/App.xaml.cs" Line="15" Column="64" />
       <File FileName="XamUDemy/Pages/ImageCirclePage.xaml" Line="19" Column="1" />
       <File FileName="XamUDemy/Navigations/InstagramMainPage.xaml" Line="15" Column="1" />
       <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="29" Column="1" />
       <File FileName="XamUDemy/Navigations/InstagramUserProfilePage.xaml" Line="31" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml" Line="43" Column="1" />
+      <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -24,7 +24,7 @@
                             WidthRequest= "30"
                             HeightRequest= "30"
                             Aspect= "AspectFill"
-                            Source= "{Binding ImageURL}" />
+                            Source= "{Binding ImageUrl}" />
 
                         <Label
                             Text= "{Binding Description}"
