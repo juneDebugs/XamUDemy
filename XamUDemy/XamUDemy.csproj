@@ -143,6 +143,9 @@
     <EmbeddedResource Include="Navigations\InstagramMainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\InstagramMyProfilePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -271,6 +274,9 @@
     </Compile>
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Navigations\InstagramMyProfilePage.xaml.cs">
+      <DependentUpon>InstagramMyProfilePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Models/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/InstagramMyProfilePage.xaml">
     <Files>
       <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="9" Column="9" />
       <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs" Line="18" Column="94" />
       <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml" Line="5" Column="60" />
       <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml.cs" Line="2" Column="34" />
       <File FileName="XamUDemy/Models/User.cs" Line="16" Column="1" />
+      <File FileName="XamUDemy/Navigations/InstagramMyProfilePage.xaml" Line="4" Column="5" />
+      <File FileName="XamUDemy/Navigations/InstagramMyProfilePage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
