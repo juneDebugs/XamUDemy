@@ -4,16 +4,15 @@ using Xamarin.Forms;
 
 namespace XamUDemy.Models
 {
-    public class User : ContentPage
+    public class User 
     {
-        public User()
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public string ImageUrl
         {
-            Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Hello ContentPage" }
-                }
-            };
+            get { return $"http://lorempixel.com/200/200/people/{Id}"; }
         }
     }
 }
