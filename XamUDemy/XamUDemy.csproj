@@ -126,6 +126,9 @@
     <EmbeddedResource Include="Navigations\CarouselPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\ConfirmationBoxXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -233,6 +236,9 @@
     </Compile>
     <Compile Include="Navigations\CarouselPageXaml.xaml.cs">
       <DependentUpon>CarouselPageXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\ConfirmationBoxXaml.xaml.cs">
+      <DependentUpon>ConfirmationBoxXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
