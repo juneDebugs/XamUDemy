@@ -131,6 +131,9 @@
     <EmbeddedResource Include="Navigations\ActionSheetXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\ToolbarItemsPageXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -244,6 +247,9 @@
     </Compile>
     <Compile Include="Navigations\ActionSheetXaml.xaml.cs">
       <DependentUpon>ActionSheetXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\ToolbarItemsPageXaml.xaml.cs">
+      <DependentUpon>ToolbarItemsPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
