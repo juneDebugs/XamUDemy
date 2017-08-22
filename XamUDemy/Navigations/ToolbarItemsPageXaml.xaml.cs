@@ -7,7 +7,12 @@ namespace XamUDemy.Navigations
 {
     public partial class ToolbarItemsPageXaml : ContentPage
     {
-        void Handle_Activated(object sender, System.EventArgs e)
+        //void SecondaryHandle_Activated(object sender, System.EventArgs e)
+        //{
+        //    DisplayAlert("Activated", "Toolbar Item Activated", "OK");
+        //}
+
+        void PrimaryHandle_Activated(object sender, System.EventArgs e)
         {
             DisplayAlert("Activated", "Toolbar Item Activated", "OK");
         }

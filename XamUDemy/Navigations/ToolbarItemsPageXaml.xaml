@@ -6,13 +6,22 @@
     Title= "Nike">
 
    <!-- Order is optional
-    Order can be Primary or Secondary-->
+    Order can be Primary or Secondary
+    Text Property can only be seen in Secondary-->
     <ContentPage.ToolbarItems>
         <ToolbarItem
-            Icon= "batmanLogo.png" 
+            Icon= "plus.png" 
             Text= "Jordan"
-            Activated= "Handle_Activated" 
+            Activated= "PrimaryHandle_Activated" 
             Order= "Primary"/>
     </ContentPage.ToolbarItems>
+
+   <!--<ContentPage.ToolbarItems>
+        <ToolbarItem
+            Icon= "plus.png" 
+            Text= "Jordan"
+            Activated= "SecondaryHandle_Activated" 
+            Order= "Secondary"/>
+    </ContentPage.ToolbarItems>-->
    
 </ContentPage>

@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/ToolbarItemsPageXaml.xaml">
-    <Files>
-      <File FileName="XamUDemy/App.xaml.cs" Line="15" Column="68" />
-      <File FileName="XamUDemy/Navigations/ToolbarItemsPageXaml.xaml" Line="16" Column="32" />
-      <File FileName="XamUDemy/Navigations/ToolbarItemsPageXaml.xaml.cs" Line="12" Column="63" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
