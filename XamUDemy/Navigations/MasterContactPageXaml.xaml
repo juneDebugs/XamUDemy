@@ -5,11 +5,17 @@
     x:Class="XamUDemy.Navigations.MasterContactPageXaml"
     Padding= "0, 20, 0, 0">
 
+    <ListView>
+        <ListView.ItemTemplate>
 
+            <DataTemplate>
+                <TextCell 
+                    Text= "{Binding Name}"
+                    Detail= "{Binding Status}" />
 
+            </DataTemplate>
 
+        </ListView.ItemTemplate>
+    </ListView>
 
-
-
-    
 </ContentPage>
