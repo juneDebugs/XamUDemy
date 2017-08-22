@@ -14,6 +14,7 @@
 
             <Button
                 Text= "Back"
+                TextColor= "Fuchsia"
                 Clicked= "Handle_Clicked" />
 
     </StackLayout>

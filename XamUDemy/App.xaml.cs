@@ -12,7 +12,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new TabbedPageXaml();
+            MainPage = new ModalFirstPage();
 
             //MainPage = new NavigationPage(new HierarchicalNavigationFirstPage())
             //{
