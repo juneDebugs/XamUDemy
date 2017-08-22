@@ -7,16 +7,26 @@
     Title= ActivityFeed
     xmlns:ic= "clr-namespace:ImageCircle.Forms.Plugin.Abstractions; assembly= ImageCircle.Forms.Plugin.Abstractions">
 
-    <ListView>
+    <ListView
+        x:Name= "activityFeed"
+        HasUnevenRows= "true"
+        ItemSelected= "OnActivitySelected" >
+    
+        <ListView.ItemTemplate>
+            <DataTemplate>
 
+                <ViewCell>
+                    <StackLayout>
+                        <ic:CircleImage
+                            WidthRequest= "30"
+                            HeightRequest= "30"
+                            Aspect= "AspectFill"
+                            Source= "{Binding ImageURL" />
 
+                    </StackLayout>
+                </ViewCell>
 
-
-
-
-
-
-
+            </DataTemplate>
+        </ListView.ItemTemplate>
     </ListView>
-
 </ContentPage>
