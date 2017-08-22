@@ -5,11 +5,14 @@
     x:Class="XamUDemy.Navigations.ToolbarItemsPageXaml"
     Title= "Nike">
 
+   <!-- Order is optional
+    Order can be Primary or Secondary-->
     <ContentPage.ToolbarItems>
         <ToolbarItem
             Icon= "batmanLogo.png" 
             Text= "Jordan"
-            Activated= "Handle_Activated" />
+            Activated= "Handle_Activated" 
+            Order= "Primary"/>
     </ContentPage.ToolbarItems>
    
 </ContentPage>

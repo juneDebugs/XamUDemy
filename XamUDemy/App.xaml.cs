@@ -12,7 +12,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ActionSheetXaml();
+            MainPage = new NavigationPage(new ToolbarItemsPageXaml());
 
                 //new NavigationPage(new MasterDetailContactXaml());
 
