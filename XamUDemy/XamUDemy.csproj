@@ -277,6 +277,7 @@
     <Compile Include="Navigations\InstagramMyProfilePage.xaml.cs">
       <DependentUpon>InstagramMyProfilePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Services\ActivityService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
