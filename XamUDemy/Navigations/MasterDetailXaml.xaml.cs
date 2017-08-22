@@ -6,9 +6,9 @@ using XamUDemy.Models;
 
 namespace XamUDemy.Navigations
 {
-    public partial class MasterDetailPageXaml : ContentPage
+    public partial class MasterDetailXaml : ContentPage
     {
-        public MasterDetailPageXaml(Contact contact)
+        public MasterDetailXaml(Contact contact)
         {
             //Defensive Programming
             if (contact == null)

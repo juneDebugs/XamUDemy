@@ -6,18 +6,21 @@ using XamUDemy.Models;
 
 namespace XamUDemy.Navigations
 {
-    public partial class MasterContactPageXaml : ContentPage
+    public partial class MasterDetailContactXaml : ContentPage
     {
         //Async and Await for SelectedItem
         async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            var contact = e.SelectedItem as Contact;
-            await Navigation.PushAsync(new MasterDetailPageXaml(contact));
+            if (e.SelectedItem == null)
+                return;
 
+            var contact = e.SelectedItem as Contact;
+
+            await Navigation.PushAsync(new MasterDetailXaml(contact));
             listView.SelectedItem = null;
         }
 
-        public MasterContactPageXaml()
+        public MasterDetailContactXaml()
         {
             InitializeComponent();
 
