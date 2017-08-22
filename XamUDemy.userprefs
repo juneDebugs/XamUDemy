@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/TabbedPageXaml.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/ModalSecondPage.xaml.cs">
     <Files>
       <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml" Line="29" Column="1" />
       <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml.cs" Line="16" Column="2" />
       <File FileName="XamUDemy/Pages/ButtonPage.xaml.cs" Line="22" Column="32" />
       <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="15" Column="1" />
       <File FileName="XamUDemy/Pages/PhotoGalleryPage.xaml" Line="31" Column="1" />
+      <File FileName="XamUDemy/Navigations/ModalFirstPage.xaml" Line="22" Column="1" />
+      <File FileName="XamUDemy/Navigations/ModalFirstPage.xaml.cs" Line="22" Column="1" />
+      <File FileName="XamUDemy/Navigations/ModalSecondPage.xaml.cs" Line="13" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
