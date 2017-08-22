@@ -129,6 +129,9 @@
     <EmbeddedResource Include="Navigations\ConfirmationBoxXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\ActionSheetXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -239,6 +242,9 @@
     </Compile>
     <Compile Include="Navigations\ConfirmationBoxXaml.xaml.cs">
       <DependentUpon>ConfirmationBoxXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\ActionSheetXaml.xaml.cs">
+      <DependentUpon>ActionSheetXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
