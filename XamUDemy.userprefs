@@ -1,26 +1,10 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Lists/ListViewXamlSelections.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/MasterDetailPageXaml.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml" Line="29" Column="1" />
-      <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml.cs" Line="16" Column="2" />
-      <File FileName="XamUDemy/Pages/ButtonPage.xaml.cs" Line="22" Column="32" />
-      <File FileName="XamUDemy/Pages/ButtonPage.xaml" Line="15" Column="1" />
-      <File FileName="XamUDemy/Pages/PhotoGalleryPage.xaml" Line="31" Column="1" />
-      <File FileName="XamUDemy/Navigations/ModalFirstPage.xaml" Line="22" Column="1" />
-      <File FileName="XamUDemy/Navigations/ModalFirstPage.xaml.cs" Line="22" Column="1" />
-      <File FileName="XamUDemy/Navigations/ModalSecondPage.xaml.cs" Line="13" Column="10" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="15" Column="42" />
-      <File FileName="XamUDemy/Navigations/ModalSecondPage.xaml" Line="17" Column="17" />
-      <File FileName="XamUDemy/Navigations/MasterDetailPage.xaml" Line="13" Column="5" />
-      <File FileName="XamUDemy/Navigations/MasterDetailPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Navigations/MasterDetailPageXaml.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Navigations/MasterContactPageXaml.xaml" Line="11" Column="43" />
+      <File FileName="XamUDemy/Navigations/MasterContactPageXaml.xaml.cs" Line="20" Column="35" />
+      <File FileName="XamUDemy/Navigations/MasterDetailPageXaml.xaml" Line="5" Column="16" />
       <File FileName="XamUDemy/Navigations/MasterDetailPageXaml.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Navigations/MasterContactPageXaml.xaml" Line="18" Column="33" />
-      <File FileName="XamUDemy/Navigations/MasterContactPageXaml.xaml.cs" Line="19" Column="15" />
-      <File FileName="XamUDemy/Navigations/HierarchicalNavigationFirstPage.xaml" Line="22" Column="1" />
-      <File FileName="XamUDemy/Navigations/HierarchicalNavigationFirstPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Lists/ListViewXamlSelections.xaml.cs" Line="30" Column="8" />
-      <File FileName="XamUDemy/Lists/ListViewXamlSelections.xaml" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

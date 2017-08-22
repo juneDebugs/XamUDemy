@@ -5,7 +5,8 @@
     x:Class="XamUDemy.Navigations.MasterContactPageXaml"
     Padding= "0, 20, 0, 0">
 
-    <ListView>
+    <ListView
+        x:Name= "listView" >
         <ListView.ItemTemplate>
 
             <DataTemplate>

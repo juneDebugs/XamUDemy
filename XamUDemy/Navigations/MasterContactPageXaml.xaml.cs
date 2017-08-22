@@ -8,6 +8,12 @@ namespace XamUDemy.Navigations
 {
     public partial class MasterContactPageXaml : ContentPage
     {
+        
+        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         public MasterContactPageXaml()
         {
             InitializeComponent();
