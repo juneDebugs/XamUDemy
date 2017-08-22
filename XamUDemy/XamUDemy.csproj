@@ -117,7 +117,10 @@
     <EmbeddedResource Include="Navigations\ModalSecondPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\MasterDetailPage.xaml">
+    <EmbeddedResource Include="Navigations\MasterDetailPageXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\MasterContactPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -219,8 +222,11 @@
     <Compile Include="Navigations\ModalSecondPage.xaml.cs">
       <DependentUpon>ModalSecondPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigations\MasterDetailPage.xaml.cs">
-      <DependentUpon>MasterDetailPage.xaml</DependentUpon>
+    <Compile Include="Navigations\MasterDetailPageXaml.xaml.cs">
+      <DependentUpon>MasterDetailPageXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\MasterContactPageXaml.xaml.cs">
+      <DependentUpon>MasterContactPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
