@@ -16,12 +16,20 @@
             <DataTemplate>
 
                 <ViewCell>
-                    <StackLayout>
+                    <StackLayout
+                        Padding= "5"
+                        Orientation= "Horizontal" >
+                        
                         <ic:CircleImage
                             WidthRequest= "30"
                             HeightRequest= "30"
                             Aspect= "AspectFill"
                             Source= "{Binding ImageURL" />
+
+                        <Label
+                            Text= "{Binding Description}"
+                            FontSize= "12"
+                            VerticalOptions= "Center" />
 
                     </StackLayout>
                 </ViewCell>
