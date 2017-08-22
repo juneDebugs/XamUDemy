@@ -123,6 +123,9 @@
     <EmbeddedResource Include="Navigations\MasterDetailContactXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigations\MasterDetailPageXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -227,6 +230,9 @@
     </Compile>
     <Compile Include="Navigations\MasterDetailContactXaml.xaml.cs">
       <DependentUpon>MasterDetailContactXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigations\MasterDetailPageXaml.xaml.cs">
+      <DependentUpon>MasterDetailPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
