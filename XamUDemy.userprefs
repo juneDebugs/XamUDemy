@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/SliderPageXaml.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/FormsAndSettingPages/SwitchPageXaml.xaml" Line="17" Column="79" />
-      <File FileName="XamUDemy/FormsAndSettingPages/SwitchPageXaml.xaml.cs" Line="10" Column="61" />
+      <File FileName="XamUDemy/FormsAndSettingPages/SwitchPageXaml.xaml" Line="13" Column="9" />
+      <File FileName="XamUDemy/FormsAndSettingPages/SwitchPageXaml.xaml.cs" Line="17" Column="10" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
       <File FileName="XamUDemy/App.xaml.cs" Line="20" Column="42" />
       <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs" Line="64" Column="13" />
+      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="26" Column="1" />
+      <File FileName="XamUDemy/FormsAndSettingPages/SliderPageXaml.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/FormsAndSettingPages/SliderPageXaml.xaml.cs" Line="8" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
