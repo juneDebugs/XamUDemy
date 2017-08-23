@@ -62,7 +62,10 @@ namespace XamUDemy.DataAccess
             //This object is now the SOURCE of the data binding
             //Since we have a {Binding Title} and {Binding NotificationsEnabled}
             //THUS, we no longer need the EventHandlers: Data Binding will do all the syncronization
-            BindingContext = AppSettings;
+
+            BindingContext = Application.Current;
+
+            // BindingContext = Helpers.Settings;
         }
     }
 }

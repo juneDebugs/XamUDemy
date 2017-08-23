@@ -2,9 +2,11 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.FormsAndSettingPages.EntryAndEditorPage"
+    x:Class="XamUDemy.FormsAndSettingPages.EntryPageXaml"
     Padding= "40">
 
+    <!--This is how to link the event handler to the label-->
+<!--     Completed= "Handle_Completed"-->
     <StackLayout>
         <Entry
             Keyboard= "Numeric"
@@ -12,7 +14,7 @@
 
         <Entry 
             IsPassword= "true"
-            Completed= "Handle_Completed"/>
+            TextChanged= "Handle_TextChanged"/>
 
         <Label
             x:Name= "label" />

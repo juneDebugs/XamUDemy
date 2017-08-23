@@ -146,7 +146,7 @@
     <EmbeddedResource Include="FormsAndSettingPages\StepperPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormsAndSettingPages\EntryAndEditorPage.xaml">
+    <EmbeddedResource Include="FormsAndSettingPages\EntryPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -279,8 +279,8 @@
     <Compile Include="FormsAndSettingPages\StepperPageXaml.xaml.cs">
       <DependentUpon>StepperPageXaml.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FormsAndSettingPages\EntryAndEditorPage.xaml.cs">
-      <DependentUpon>EntryAndEditorPage.xaml</DependentUpon>
+    <Compile Include="FormsAndSettingPages\EntryPageXaml.xaml.cs">
+      <DependentUpon>EntryPageXaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Settings.cs" />
   </ItemGroup>

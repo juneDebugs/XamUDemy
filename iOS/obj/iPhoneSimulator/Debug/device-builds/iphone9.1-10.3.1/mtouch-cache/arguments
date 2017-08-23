@@ -27,6 +27,10 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -322,6 +326,10 @@
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

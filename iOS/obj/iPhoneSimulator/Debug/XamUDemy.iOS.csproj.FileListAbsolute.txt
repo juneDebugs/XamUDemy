@@ -68,3 +68,8 @@
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.csproj.CoreCompileInputs.cache
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.exe
 /Users/junecho/Projects/XamUDemy/iOS/obj/iPhoneSimulator/Debug/XamUDemy.iOS.pdb
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.pdb
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.xml
