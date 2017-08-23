@@ -2,7 +2,8 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.FormsAndSettingPages.EntryAndEditorPage">
+    x:Class="XamUDemy.FormsAndSettingPages.EntryAndEditorPage"
+    Padding= "40">
 
     <StackLayout>
         <Entry
@@ -10,11 +11,11 @@
             Placeholder= "Phone" />
 
         <Entry 
-            Keyboard= "Password"
             IsPassword= "true"
             Completed= "Handle_Completed"/>
-            
-            
+
+        <Label
+            x:Name= "label" />
 
     </StackLayout>
 

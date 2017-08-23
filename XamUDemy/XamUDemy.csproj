@@ -282,6 +282,7 @@
     <Compile Include="FormsAndSettingPages\EntryAndEditorPage.xaml.cs">
       <DependentUpon>EntryAndEditorPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -295,6 +296,12 @@
     </Reference>
     <Reference Include="ImageCircle.Forms.Plugin.Abstractions">
       <HintPath>..\packages\Xam.Plugins.Forms.ImageCircle.1.8.1\lib\portable-net45+wp80+win8+wpa81\ImageCircle.Forms.Plugin.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.0.1\lib\netstandard1.0\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.0.1\lib\netstandard1.0\Plugin.Settings.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/EntryAndEditorPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Helpers/Settings.cs">
     <Files>
       <File FileName="XamUDemy/FormsAndSettingPages/SwitchPageXaml.xaml.cs" Line="17" Column="10" />
       <File FileName="XamUDemy/App.xaml" Line="7" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="20" Column="43" />
-      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs" Line="64" Column="13" />
-      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="26" Column="1" />
+      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs" Line="65" Column="30" />
+      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="19" Column="48" />
       <File FileName="XamUDemy/FormsAndSettingPages/SliderPageXaml.xaml" Line="29" Column="1" />
       <File FileName="XamUDemy/FormsAndSettingPages/SliderPageXaml.xaml.cs" Line="12" Column="6" />
       <File FileName="XamUDemy/FormsAndSettingPages/StepperPageXaml.xaml" Line="32" Column="1" />
       <File FileName="XamUDemy/FormsAndSettingPages/StepperPageXaml.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/EntryAndEditorPage.xaml" Line="14" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/EntryAndEditorPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/FormsAndSettingPages/EntryAndEditorPage.xaml" Line="6" Column="18" />
+      <File FileName="XamUDemy/FormsAndSettingPages/EntryAndEditorPage.xaml.cs" Line="8" Column="26" />
+      <File FileName="XamUDemy/obj/Debug/XamUDemy.FormsAndSettingPages.EntryAndEditorPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="14" Column="79" />
+      <File FileName="XamUDemy/Helpers/Settings.cs" Line="26" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
