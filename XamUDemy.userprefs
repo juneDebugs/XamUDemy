@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/DataAccess/FileSystemXaml.xaml">
-    <Files>
-      <File FileName="XamUDemy/DataAccess/FileSystemXaml.xaml" Line="2" Column="14" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
