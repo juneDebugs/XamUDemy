@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new EditorPageXaml();
+            MainPage = new PickerPageXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 
