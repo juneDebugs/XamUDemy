@@ -49,7 +49,7 @@ namespace XamUDemy
             get
             {
                 if (Properties.ContainsKey(TitleKey))
-                    Properties[TitleKey].ToString();
+                    return Properties[TitleKey].ToString();
 
                 return "";
             }

@@ -9,18 +9,15 @@
 
             <TableRoot>
                 <TableSection>
-                    <EntryCell
-                        x:Name= "title"
+                    <EntryCell                 
                         Text= "{Binding Title}"
                         Label= "Title"
-                        Placeholder= "(Shopping)" 
-                        Completed= "OnChange"/>
+                        Placeholder= "(Shopping)" />
 
                     <SwitchCell
-                        x:Name= "notifacationsEnabled"
                         Text= "Notifications"
                         On= "{Binding NotificationsEnabled}" 
-                        OnChanged= "OnChange" />
+                        />
                 </TableSection>
             </TableRoot>
 
