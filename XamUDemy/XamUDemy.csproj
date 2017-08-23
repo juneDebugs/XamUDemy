@@ -137,6 +137,9 @@
     <EmbeddedResource Include="DataAccess\ApplicationPropertiesXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\SwitchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -258,6 +261,9 @@
       <DependentUpon>ApplicationPropertiesXaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Activity.cs" />
+    <Compile Include="FormsAndSettingPages\SwitchPage.xaml.cs">
+      <DependentUpon>SwitchPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
