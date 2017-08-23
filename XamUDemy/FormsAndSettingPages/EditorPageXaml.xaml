@@ -1,5 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamUDemy.FormsAndSettingPages.EditorPageXaml">
-	<ContentPage.Content>
-	</ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamUDemy.FormsAndSettingPages.EditorPageXaml"
+    Padding= "40">
+
+   <!-- We use Editor to capture multiple lines of text
+    Notice that within the StackLayout that the Editor doesn't fill up the space
+    You can use VerticalOptions to Fill up the space-->
+    <StackLayout>
+
+        <Editor
+            BackgroundColor= "Aqua"
+            VerticalOptions= "FillAndExpand"/>
+
+    </StackLayout>
+
 </ContentPage>
