@@ -5,8 +5,15 @@
     x:Class="XamUDemy.FormsAndSettingPages.EntryAndEditorPage">
 
     <StackLayout>
+        <Entry
+            Keyboard= "Numeric"
+            Placeholder= "Phone" />
 
-
+        <Entry 
+            Keyboard= "Password"
+            IsPassword= "true" />
+            
+            
 
     </StackLayout>
 
