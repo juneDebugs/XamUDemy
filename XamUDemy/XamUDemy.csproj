@@ -152,6 +152,9 @@
     <EmbeddedResource Include="FormsAndSettingPages\EditorPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\PickerPageXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -288,6 +291,9 @@
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="FormsAndSettingPages\EditorPageXaml.xaml.cs">
       <DependentUpon>EditorPageXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettingPages\PickerPageXaml.xaml.cs">
+      <DependentUpon>PickerPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
