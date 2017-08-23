@@ -143,6 +143,9 @@
     <EmbeddedResource Include="FormsAndSettingPages\SliderPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\StepperPageXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -269,6 +272,9 @@
     </Compile>
     <Compile Include="FormsAndSettingPages\SliderPageXaml.xaml.cs">
       <DependentUpon>SliderPageXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettingPages\StepperPageXaml.xaml.cs">
+      <DependentUpon>StepperPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
