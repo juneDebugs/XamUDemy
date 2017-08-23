@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Navigations/InstagramUserProfilePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml" Line="29" Column="31" />
+      <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml" Line="41" Column="1" />
       <File FileName="XamUDemy/Navigations/InstagramUserProfilePage.xaml.cs" Line="9" Column="50" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="17" Column="13" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="15" Column="41" />
       <File FileName="XamUDemy/Pages/ImageCirclePage.xaml" Line="19" Column="1" />
       <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml" Line="29" Column="1" />
-      <File FileName="XamUDemy/Navigations/InstagramUserProfilePage.xaml" Line="29" Column="4" />
+      <File FileName="XamUDemy/Navigations/InstagramUserProfilePage.xaml" Line="31" Column="1" />
       <File FileName="XamUDemy/Lists/ListViewXamlViewCell.xaml" Line="43" Column="1" />
       <File FileName="XamUDemy/Navigations/InstagramActivityFeedPage.xaml.cs" Line="12" Column="9" />
-      <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml" Line="11" Column="5" />
+      <File FileName="XamUDemy/Navigations/TabbedPageXaml.xaml" Line="30" Column="1" />
       <File FileName="iOS/Main.cs" Line="9" Column="2" />
       <File FileName="XamUDemy/Models/Activity.cs" Line="15" Column="9" />
-      <File FileName="XamUDemy/Models/User.cs" Line="16" Column="4" />
-      <File FileName="XamUDemy/Services/ActivityService.cs" Line="1" Column="1" />
       <File FileName="XamUDemy/Services/SearchService.cs" Line="1" Column="1" />
-      <File FileName="XamUDemy/Services/UserService.cs" Line="24" Column="40" />
+      <File FileName="XamUDemy/Models/SearchGroup.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Models/Search.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Models/ContactGroup.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Models/Contact.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/DataAccess/ApplicationPropertiesXaml.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

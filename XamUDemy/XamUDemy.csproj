@@ -137,18 +137,6 @@
     <EmbeddedResource Include="DataAccess\ApplicationPropertiesXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\InstagramActivityFeedPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\InstagramMainPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\InstagramMyProfilePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Navigations\InstagramUserProfilePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -269,22 +257,7 @@
     <Compile Include="DataAccess\ApplicationPropertiesXaml.xaml.cs">
       <DependentUpon>ApplicationPropertiesXaml.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigations\InstagramActivityFeedPage.xaml.cs">
-      <DependentUpon>InstagramActivityFeedPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Navigations\InstagramMainPage.xaml.cs">
-      <DependentUpon>InstagramMainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Models\Activity.cs" />
-    <Compile Include="Models\User.cs" />
-    <Compile Include="Navigations\InstagramMyProfilePage.xaml.cs">
-      <DependentUpon>InstagramMyProfilePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Services\ActivityService.cs" />
-    <Compile Include="Services\UserService.cs" />
-    <Compile Include="Navigations\InstagramUserProfilePage.xaml.cs">
-      <DependentUpon>InstagramUserProfilePage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

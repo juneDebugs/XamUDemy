@@ -3,6 +3,7 @@ using XamUDemy.Pages;
 using XamUDemy.Layouts;
 using XamUDemy.Lists;
 using XamUDemy.Navigations;
+using XamUDemy.DataAccess;
 
 namespace XamUDemy
 {
@@ -12,7 +13,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new InstagramMainPage());
+            MainPage = new ApplicationPropertiesXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 
