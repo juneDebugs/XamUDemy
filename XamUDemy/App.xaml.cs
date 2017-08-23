@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new SwitchPageXaml();
+            MainPage = new SliderPageXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

@@ -1,5 +1,28 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamUDemy.FormsAndSettingPages.SliderPageXaml">
-	<ContentPage.Content>
-	</ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamUDemy.FormsAndSettingPages.SliderPageXaml"
+    Padding= "40">
+
+    <StackLayout>
+
+       <!-- The minimum, maximum, and value PROPERTIES of Slider
+            need to be in a SPECIFIC order to execute -->
+        <Slider x:Name= "slider"
+
+                        Maximum= "223"
+
+                        Minimum= "10"
+
+                        Value= "50"
+
+                        ValueChanged= "Handle_ValueChanged"/>
+
+        <Label 
+            Text= "{Binding Source={x:Reference slider}, Path= Value, StringFormat='{0:N0}'}"/>
+
+           
+    </StackLayout>
+  
 </ContentPage>
