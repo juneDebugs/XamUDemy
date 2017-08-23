@@ -7,15 +7,17 @@ namespace XamUDemy.DataAccess
 {
     public partial class ApplicationPropertiesXaml : ContentPage
     {
-        //Notice that we only have ONE Event handler
+        private const string TitleKey = "Name";
+        private const string NotificationsEnabledKey = "NotificationsEnabled";
 
-        void OnChange(object sender, Xamarin.Forms.ToggledEventArgs e)
+		//Notice that we only have ONE Event handler for TWO handles
+		void OnChange(object sender, Xamarin.Forms.ToggledEventArgs e)
         {
             //This is for EntryCell
-            Application.Current.Properties["Name"] = title.Text;
+            Application.Current.Properties[TitleKey] = title.Text;
 
             //This is for the switchCell
-            Application.Current.Properties["NotificationsEnabled"] = notifacationsEnabled.On;
+            Application.Current.Properties[NotificationsEnabledKey] = notifacationsEnabled.On;
 
 			//Application.Current.SavePropertiesAsync();
 			//This will save the current Properties BEFORE it goes into sleepmode.
@@ -28,13 +30,13 @@ namespace XamUDemy.DataAccess
         {
             InitializeComponent();
 
-            if (Application.Current.Properties.ContainsKey("Name"))
+            if (Application.Current.Properties.ContainsKey(TitleKey))
             //This Property, "Name", returns an object so...
             //we need to include ToString
-            title.Text = Application.Current.Properties["Name"].ToString();
+            title.Text = Application.Current.Properties[TitleKey].ToString();
 
-            if (Application.Current.Properties.ContainsKey("NotificationsEnabled"))
-                notifacationsEnabled.On = (bool)Application.Current.Properties["NotificationsEnabled"];
+            if (Application.Current.Properties.ContainsKey(NotificationsEnabledKey))
+                notifacationsEnabled.On = (bool)Application.Current.Properties[NotificationsEnabledKey];
 
         }
     }
