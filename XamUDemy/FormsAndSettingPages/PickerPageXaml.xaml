@@ -9,14 +9,16 @@
         
         <Picker
             Title= "Contact Method"
-            BackgroundColor= "Aqua">
+            x:Name= "contactMethods"
+            BackgroundColor= "Aqua"
+
+            SelectedIndexChanged= "Handle_SelectedIndexChanged">
             
             <Picker.Items>
                 <x:String>
                     SMS
                 </x:String>
 
-                
                 <x:String>
                     Email
                 </x:String>
