@@ -2,17 +2,18 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.FormsAndSettingPages.SwitchPage"
+    x:Class="XamUDemy.FormsAndSettingPages.SwitchPageXaml"
     Padding= "40">
 
     <StackLayout>
-        <Switch 
-            IsToggled= "true"
-            Toggled= "Handle_Toggled"/>
+        <Switch
+            x:Name= "switch"
+            IsToggled= "true" />
 
         <Label
             x:Name= "label"
-            Text= "Content" />
+            Text= "Content"
+            IsVisible= "{Binding Source={x:Reference switch}, Path= IsToggled}"/>
     </StackLayout>
 
 </ContentPage>

@@ -4,6 +4,7 @@ using XamUDemy.Layouts;
 using XamUDemy.Lists;
 using XamUDemy.Navigations;
 using XamUDemy.DataAccess;
+using XamUDemy.FormsAndSettingPages;
 
 namespace XamUDemy
 {
@@ -16,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ApplicationPropertiesXaml();
+            MainPage = new SwitchPageXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

@@ -137,7 +137,7 @@
     <EmbeddedResource Include="DataAccess\ApplicationPropertiesXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormsAndSettingPages\SwitchPage.xaml">
+    <EmbeddedResource Include="FormsAndSettingPages\SwitchPageXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -261,8 +261,8 @@
       <DependentUpon>ApplicationPropertiesXaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Activity.cs" />
-    <Compile Include="FormsAndSettingPages\SwitchPage.xaml.cs">
-      <DependentUpon>SwitchPage.xaml</DependentUpon>
+    <Compile Include="FormsAndSettingPages\SwitchPageXaml.xaml.cs">
+      <DependentUpon>SwitchPageXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
