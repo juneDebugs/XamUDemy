@@ -5,6 +5,13 @@ using Xamarin.Forms;
 
 namespace XamUDemy.FormsAndSettingPages
 {
+    public class ContactMethod
+    {
+		public int Id { get; set; }
+        public string Name { get; set; }      
+    }
+
+
     public partial class PickerPageXaml : ContentPage
     {
         void Handle_SelectedIndexChanged(object sender, System.EventArgs e)
