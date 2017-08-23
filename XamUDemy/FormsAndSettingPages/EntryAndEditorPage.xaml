@@ -11,7 +11,8 @@
 
         <Entry 
             Keyboard= "Password"
-            IsPassword= "true" />
+            IsPassword= "true"
+            Completed= "Handle_Completed"/>
             
             
 
