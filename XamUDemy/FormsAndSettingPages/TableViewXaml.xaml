@@ -10,12 +10,20 @@
                 <TableSection
                     Title= "Basics">
 
+                <!--These are all the PRE-BUILT Cells in TableSection-->
+                    <TextCell
+                        Text= "Name"
+                        Detail= "June Cho" />
 
+                    <EntryCell  
+                        Label= "Title"
+                        Placeholder= "Phone Number"
+                        Keyboard= "Telephone" />
 
+                    <SwitchCell
+                        Text= "Notifcations"
+                        On= "true" />
 
-
-
-                
                 </TableSection>
             </TableRoot>
         
