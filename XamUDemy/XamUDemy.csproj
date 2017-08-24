@@ -161,6 +161,9 @@
     <EmbeddedResource Include="FormsAndSettingPages\TableViewXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\TableViewCustomCellXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -306,6 +309,9 @@
     </Compile>
     <Compile Include="FormsAndSettingPages\TableViewXaml.xaml.cs">
       <DependentUpon>TableViewXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettingPages\TableViewCustomCellXaml.xaml.cs">
+      <DependentUpon>TableViewCustomCellXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
