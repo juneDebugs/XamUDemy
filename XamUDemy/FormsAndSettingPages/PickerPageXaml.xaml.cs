@@ -22,7 +22,7 @@ namespace XamUDemy.FormsAndSettingPages
         void Handle_SelectedIndexChanged(object sender, System.EventArgs e)
         {
             var name = contactMethods.Items[contactMethods.SelectedIndex];
-            GetContactMethods().Single(cm => cm.Name == name);
+            _contactMethods.Single(cm => cm.Name == name);
 
             DisplayAlert("Selection", name, "OK");
         }
@@ -31,8 +31,10 @@ namespace XamUDemy.FormsAndSettingPages
         {
             InitializeComponent();
 
-            foreach (var method in GetContactMethods())
-                picker.Items.Add(method.Name);
+            _contactMethods = GetContactMethods();
+
+            //foreach (var method in _contactMethods)
+                //picker.Items.Add(method.Name);
         }
 
         // This is where you point your Database to for DATA

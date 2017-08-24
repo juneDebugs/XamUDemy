@@ -10,11 +10,11 @@
         <Picker
             Title= "Contact Method"
             x:Name= "contactMethods"
-            BackgroundColor= "Aqua"
+            BackgroundColor= "Aqua">
 
-            SelectedIndexChanged= "Handle_SelectedIndexChanged">
+           <!-- SelectedIndexChanged= "Handle_SelectedIndexChanged"-->
             
-            <Picker.Items>
+           <!-- <Picker.Items>
                 <x:String>
                     SMS
                 </x:String>
@@ -22,7 +22,7 @@
                 <x:String>
                     Email
                 </x:String>
-            </Picker.Items>
+            </Picker.Items>-->
         </Picker>
         
     </StackLayout>
