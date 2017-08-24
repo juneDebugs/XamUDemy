@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new TableViewXaml();
+            MainPage = new TableViewCustomCellXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 
