@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamUDemy.FormsAndSettingPages.DateTimePickerPageXaml"
+    Padding= "40"
+
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <StackLayout>
+        <DatePicker 
+            Date= "{x:Static sys:DateTime.Today}"
+            Format= "d MMM yyyy"
+            MinimumDate= "1 Aug 2017"
+            MaximumDate= "30 Aug 2017" /> 
+          <!--  DateSelected= "Handle_DateSelected"-->
+
+    </StackLayout>
+
+</ContentPage>
