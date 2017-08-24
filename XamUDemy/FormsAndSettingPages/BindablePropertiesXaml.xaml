@@ -2,7 +2,9 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.FormsAndSettingPages.BindablePropertiesXaml">
+    x:Class="XamUDemy.FormsAndSettingPages.BindablePropertiesXaml"
+
+    xmlns:local="clr-namespace:XamUDemy.Extensions" >
 
     <TableView
         Intent= "Settings">
@@ -20,7 +22,8 @@
                         Text= "Notifcations"
                         On= "true" />
 
-                    <ViewCell>
+            <!--    This was moved to Extensions -->
+                    <!--<ViewCell>
                         <StackLayout
                             Orientation= "Horizontal"
                             Padding= "13, 0">
@@ -33,7 +36,10 @@
                                 Date= "1 Jan 2018"
                                 HorizontalOptions= "EndAndExpand" />
                         </StackLayout>
-                    </ViewCell>
+                    </ViewCell>-->
+
+                    <local:DateCell Label= "Starts"/>
+                    <local:DateCell Label= "Ends"/>
 
                 </TableSection>
             </TableRoot>
