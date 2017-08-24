@@ -15,6 +15,9 @@
             MaximumDate= "30 Aug 2017" /> 
           <!--  DateSelected= "Handle_DateSelected"-->
 
+        <TimePicker 
+            Time= "13:00"/>
+
     </StackLayout>
 
 </ContentPage>
