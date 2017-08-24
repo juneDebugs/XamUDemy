@@ -167,6 +167,9 @@
     <EmbeddedResource Include="FormsAndSettingPages\BindablePropertiesXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Extensions\DateCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -318,6 +321,9 @@
     </Compile>
     <Compile Include="FormsAndSettingPages\BindablePropertiesXaml.xaml.cs">
       <DependentUpon>BindablePropertiesXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extensions\DateCell.xaml.cs">
+      <DependentUpon>DateCell.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
