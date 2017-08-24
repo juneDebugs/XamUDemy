@@ -4,12 +4,39 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.FormsAndSettingPages.BindablePropertiesXaml">
 
+    <TableView
+        Intent= "Settings">
+            <TableRoot>
+                <TableSection
+                    Title= "Basics">
+                    <TextCell
+                        Text= "Name"
+                        Detail= "June Cho" />      
+                    <EntryCell  
+                        Label= "Title"
+                        Placeholder= "Phone Number"
+                        Keyboard= "Telephone" />
+                    <SwitchCell
+                        Text= "Notifcations"
+                        On= "true" />
 
+                    <ViewCell>
+                        <StackLayout
+                            Orientation= "Horizontal"
+                            Padding= "13, 0">
 
+                            <Label 
+                                Text= "Starts" 
+                                VerticalOptions= "Center"/>
 
+                            <DatePicker
+                                Date= "1 Jan 2018"
+                                HorizontalOptions= "EndAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
 
-
-
-
-    
+                </TableSection>
+            </TableRoot>
+    </TableView>
 </ContentPage>
+
