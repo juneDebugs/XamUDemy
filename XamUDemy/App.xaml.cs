@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new DateTimePickerPageXaml();
+            MainPage = new TableViewXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

@@ -4,7 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.FormsAndSettingPages.TableViewXaml">
 
-    <TableView>
+<!--    The Intent has for options: 
+        1) Data
+        2) Form
+        3) Menu
+        4) Settings-->
+    <TableView
+        Intent= "Settings">
         
             <TableRoot>
                 <TableSection
