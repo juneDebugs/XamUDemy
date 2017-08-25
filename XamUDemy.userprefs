@@ -1,15 +1,7 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml">
     <Files>
-      <File FileName="XamUDemy/FormsAndSettingPages/BindablePropertiesXaml.xaml" Line="49" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/BindablePropertiesXaml.xaml.cs" Line="8" Column="26" />
-      <File FileName="XamUDemy/Extensions/DateCell.xaml.cs" Line="10" Column="67" />
-      <File FileName="XamUDemy/FormsAndSettingPages/TableViewXaml.xaml" Line="39" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/TableViewCustomCellXaml.xaml" Line="43" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="20" Column="50" />
-      <File FileName="XamUDemy/FormsAndSettingPages/TableViewCustomCellXaml.xaml.cs" Line="6" Column="40" />
-      <File FileName="XamUDemy/Extensions/DateCell.xaml" Line="34" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="3" Column="5" />
       <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml.cs" Line="8" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
