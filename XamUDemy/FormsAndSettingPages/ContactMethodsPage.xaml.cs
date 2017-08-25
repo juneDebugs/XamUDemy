@@ -10,6 +10,13 @@ namespace XamUDemy.FormsAndSettingPages
         public ContactMethodsPage()
         {
             InitializeComponent();
+
+            listView.ItemsSource = new List<string>
+            {
+                "None",
+                "Email",
+                "SMS"
+            };
         }
     }
 }
