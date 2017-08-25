@@ -26,7 +26,8 @@
                         <local:DateCell Label= "Starts" />
                         <local:DateCell Label= "Ends" />
 
-                        <ViewCell>
+                        <ViewCell
+                            Tapped= "Handle_Tapped">
                             <StackLayout
                                 Orientation= "Horizontal"
                                 Padding= "13, 5" >

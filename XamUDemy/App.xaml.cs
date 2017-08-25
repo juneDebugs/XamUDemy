@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new BindablePropertiesXaml();
+            MainPage = new NavigationPage(new PickerWithNavigationXaml());
 
             //new NavigationPage(new MasterDetailContactXaml());
 
