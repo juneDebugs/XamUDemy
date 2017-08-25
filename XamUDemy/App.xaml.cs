@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new TableViewCustomCellXaml();
+            MainPage = new BindablePropertiesXaml();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

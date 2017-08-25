@@ -170,6 +170,9 @@
     <EmbeddedResource Include="Extensions\DateCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\PickerWithNavigationXaml.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -324,6 +327,9 @@
     </Compile>
     <Compile Include="Extensions\DateCell.xaml.cs">
       <DependentUpon>DateCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettingPages\PickerWithNavigationXaml.xaml.cs">
+      <DependentUpon>PickerWithNavigationXaml.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
