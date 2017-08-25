@@ -26,7 +26,16 @@
                         <local:DateCell Label= "Starts" />
                         <local:DateCell Label= "Ends" />
 
+                        <ViewCell>
+                            <StackLayout
+                                Orientation= "Horizontal"
+                                Padding= "13, 5" >
+                        
 
+
+
+                            </StackLayout>
+                        </ViewCell>
 
                 </TableSection>
             </TableRoot>
