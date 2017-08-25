@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Extensions/DateCell.xaml">
     <Files>
-      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="3" Column="5" />
+      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="25" Column="55" />
       <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml.cs" Line="8" Column="50" />
+      <File FileName="XamUDemy/Extensions/DateCell.xaml" Line="19" Column="1" />
+      <File FileName="XamUDemy/Extensions/DateCell.xaml.cs" Line="10" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,6 +12,7 @@
     <BreakpointStore>
       <Breakpoint enabled="false" file="/Users/junecho/Projects/XamUDemy/XamUDemy/Images/EmbeddedImages.xaml" relfile="XamUDemy/Images/EmbeddedImages.xaml" line="2" column="1" />
       <Breakpoint file="/Users/junecho/Projects/XamUDemy/XamUDemy/Lists/ListViewXamlViewCell.xaml" relfile="XamUDemy/Lists/ListViewXamlViewCell.xaml" line="8" column="1" />
+      <Breakpoint file="/Users/junecho/Projects/XamUDemy/XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" relfile="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

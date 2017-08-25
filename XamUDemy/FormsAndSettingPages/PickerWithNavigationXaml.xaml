@@ -2,15 +2,34 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.FormsAndSettingPages.PickerWithNavigationXaml">
+    x:Class="XamUDemy.FormsAndSettingPages.PickerWithNavigationXaml"
+    xmlns:local="clr-namespace:XamUDemy.Extensions" >
 
     <TableView
         Intent= "Form">
 
+            <TableRoot>
+                <TableSection
+                    Text= "Basics">
+                        <TextCell   
+                            Text= "Name"
+                            Detail= "June" />
+
+                        <EntryCell
+                            Label= "Title"
+                            Placeholder= "(eg Nike)" />
+
+                        <SwitchCell
+                            Text= "Notifications"
+                            On= "true" />
+
+                        <local:DateCell Label= "Starts" />
+                        <local:DateCell Label= "Ends" />
 
 
 
-
+                </TableSection>
+            </TableRoot>
         
     </TableView>
 
