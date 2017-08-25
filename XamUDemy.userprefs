@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Extensions/DateCell.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/ContactMethodsPage.xaml.cs">
     <Files>
-      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="25" Column="55" />
+      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="29" Column="25" />
       <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml.cs" Line="8" Column="50" />
       <File FileName="XamUDemy/Extensions/DateCell.xaml" Line="19" Column="1" />
       <File FileName="XamUDemy/Extensions/DateCell.xaml.cs" Line="10" Column="67" />
+      <File FileName="XamUDemy/FormsAndSettingPages/ContactMethodsPage.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/FormsAndSettingPages/ContactMethodsPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
