@@ -173,6 +173,9 @@
     <EmbeddedResource Include="FormsAndSettingPages\PickerWithNavigationXaml.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormsAndSettingPages\ContactMethodsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -330,6 +333,9 @@
     </Compile>
     <Compile Include="FormsAndSettingPages\PickerWithNavigationXaml.xaml.cs">
       <DependentUpon>PickerWithNavigationXaml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsAndSettingPages\ContactMethodsPage.xaml.cs">
+      <DependentUpon>ContactMethodsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
