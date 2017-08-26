@@ -1,17 +1,5 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/FormsAndSettingPages/BindablePropertiesXaml.xaml">
-    <Files>
-      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" Line="55" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml.cs" Line="19" Column="6" />
-      <File FileName="XamUDemy/Extensions/DateCell.xaml" Line="34" Column="1" />
-      <File FileName="XamUDemy/Extensions/DateCell.xaml.cs" Line="10" Column="67" />
-      <File FileName="XamUDemy/FormsAndSettingPages/ContactMethodsPage.xaml" Line="12" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/ContactMethodsPage.xaml.cs" Line="8" Column="44" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="20" Column="71" />
-      <File FileName="XamUDemy/FormsAndSettingPages/BindablePropertiesXaml.xaml" Line="49" Column="1" />
-      <File FileName="XamUDemy/FormsAndSettingPages/BindablePropertiesXaml.xaml.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
