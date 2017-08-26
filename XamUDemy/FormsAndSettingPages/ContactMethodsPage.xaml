@@ -5,7 +5,8 @@
     x:Class="XamUDemy.FormsAndSettingPages.ContactMethodsPage">
 
     <ListView
-        x:Name= "listView" />
+        x:Name= "listView" 
+        />
 
     
 </ContentPage>
