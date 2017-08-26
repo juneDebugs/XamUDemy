@@ -10,7 +10,7 @@
 
             <TableRoot>
                 <TableSection
-                    Text= "Basics">
+                    Title= "Basics">
                         <TextCell   
                             Text= "Name"
                             Detail= "June" />
