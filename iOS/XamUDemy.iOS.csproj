@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Persistence\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -154,6 +155,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Persistence\SQLiteDb.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\jordan.png" />
