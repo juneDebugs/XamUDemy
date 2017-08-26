@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/ISQLiteDb.cs">
+    <Files>
+      <File FileName="XamUDemy/Pages/ISQLiteDb.cs" Line="8" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

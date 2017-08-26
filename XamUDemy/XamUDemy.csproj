@@ -337,6 +337,7 @@
     <Compile Include="FormsAndSettingPages\ContactMethodsPage.xaml.cs">
       <DependentUpon>ContactMethodsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ISQLiteDb.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
