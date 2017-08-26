@@ -9,7 +9,14 @@ namespace XamUDemy.FormsAndSettingPages
     {
         void Handle_Tapped(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new ContactMethodsPage());
+            var page = new ContactMethodsPage();
+            page.ContactMethods.ItemSelected += (source, args) =>
+            {
+                contactMethod.Text = args.SelectedItem.ToString();
+                Navigation.PopAsync();
+            };
+
+            Navigation.PushAsync(page);
         }
 
         public PickerWithNavigationXaml()

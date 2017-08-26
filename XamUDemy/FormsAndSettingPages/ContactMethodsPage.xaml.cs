@@ -18,5 +18,16 @@ namespace XamUDemy.FormsAndSettingPages
                 "SMS"
             };
         }
+
+        public ListView ContactMethods 
+        {
+            get
+            {
+                return listView;
+            }
+
+        }
+
+
     }
 }
