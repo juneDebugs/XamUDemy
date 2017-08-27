@@ -20,7 +20,8 @@
                 Clicked= "OnDelete"/>
         </StackLayout>
 
-
+        <ListView
+            x:Name= "recipesListView" >
 
 
 
