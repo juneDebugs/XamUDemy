@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Collections.ObjectModel;
 
 namespace XamUDemy.DataAccess
 {
@@ -15,14 +18,26 @@ namespace XamUDemy.DataAccess
     public partial class ConsumingRESTful : ContentPage
     {
         private const string Url = "https://jsonplaceholder.typicode.com/posts";
+        //To consumer RESTful (web) services we need to create a new INSTANCE of HttpClient 
+        private HttpClient _client = new HttpClient();
+
+        private ObservableCollection<Post> _posts;
 
 		public ConsumingRESTful()
 		{
 			InitializeComponent();
 		}
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
+            //Here we are sending a GET request to this endpoint to get the LIST of ALL POSTS
+            var content= await _client.GetStringAsync(Url);
+
+            //Deserialize the string
+            JsonConvert.DeserializeObject<List<Post>>(content);
+
+            //Intialize ObservableCollection
+
             base.OnAppearing();
         }
 
