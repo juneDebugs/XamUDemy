@@ -14,6 +14,8 @@ namespace XamUDemy.DataAccess
 
     public partial class ConsumingRESTful : ContentPage
     {
+        private const string Url = "https://jsonplaceholder.typicode.com/posts";
+
 		public ConsumingRESTful()
 		{
 			InitializeComponent();
@@ -23,7 +25,6 @@ namespace XamUDemy.DataAccess
         {
             base.OnAppearing();
         }
-
 
         void OnDelete(object sender, System.EventArgs e)
         {
