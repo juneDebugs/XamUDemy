@@ -2,26 +2,22 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="XamUDemy.DataAccess.RecipeSQLite">
+    x:Class="XamUDemy.DataAccess.RecipeSQLite"
+    Padding= "40">
+    
     <StackLayout>
         <StackLayout
             Orientation= "Horizontal" >
-
             <Button 
-                Text= "Add" />
-
+                Text= "Add" 
+                Clicked= "OnAdd"/>
             <Button
-                Text= "Update" />
-
+                Text= "Update" 
+                Clicked= "OnUpdate"
+                HorizontalOptions= "CenterAndExpand"/>
             <Button 
-                Text= "Delete" />
-                
-
-
-
-
-
-
+                Text= "Delete" 
+                Clicked= "OnDelete"/>
         </StackLayout>
 
 
