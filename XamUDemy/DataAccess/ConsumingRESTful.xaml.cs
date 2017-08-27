@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 using System.Net.Http;
 using Newtonsoft.Json;
@@ -38,7 +37,7 @@ namespace XamUDemy.DataAccess
 
             //Intialize ObservableCollection
             _posts = new ObservableCollection<Post>(posts);
-            postsListVIew.ItemSource = _posts;
+            postsListView.ItemsSource = _posts;
 
             base.OnAppearing();
         }
@@ -53,9 +52,16 @@ namespace XamUDemy.DataAccess
             throw new NotImplementedException();
         }
 
-        void OnAdd(object sender, System.EventArgs e)
+        async void OnAdd(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            var post = new Post { Title = "Title" + DateTime.Now.Ticks };
+
+            var content = JsonConvert.SerializeObject(post);
+            await _client.PostAsync(Url, new StringContent(content));
+
+            //This is how you add to postsListView
+            //We are Inserting an Index to ensure the new posts are on top first
+            _posts.Insert(0, post);
         }
 
     }

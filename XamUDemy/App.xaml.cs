@@ -17,7 +17,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new RecipeSQLite();
+            MainPage = new ConsumingRESTful();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

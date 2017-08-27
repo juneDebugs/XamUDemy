@@ -20,12 +20,13 @@
                     Clicked= "OnDelete" />
         </StackLayout>
 
-        <ListView>
+        <ListView
+            x:Name= "postsListView" >
             <ListView.ItemTemplate>
                 <DataTemplate>
 
                     <TextCell
-                        Text= "{Binding Title" />
+                        Text= "{Binding Title}" />
 
                 </DataTemplate>
             </ListView.ItemTemplate>
