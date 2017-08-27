@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XamUDemy.Interface;
+using SQLite;
 
 namespace XamUDemy.DataAccess
 {
     public class Recipe
     {
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
+
+        [MaxLength(255)]
         public string Name { get; set; }
     }
 
@@ -16,6 +21,9 @@ namespace XamUDemy.DataAccess
         public RecipeSQLite()
         {
             InitializeComponent();
+
+            var connection = DependencyService.Get<ISQLiteDb>().GetConnection();
+            connection.CreateTableAsync<Recipe>();
         }
 
 		void OnAdd(object sender, System.EventArgs e)
