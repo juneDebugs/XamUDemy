@@ -18,12 +18,22 @@ namespace XamUDemy.DataAccess
 
     public partial class RecipeSQLite : ContentPage
     {
+        private SQLiteAsyncConnection _connection;
         public RecipeSQLite()
         {
             InitializeComponent();
 
-            var connection = DependencyService.Get<ISQLiteDb>().GetConnection();
-            connection.CreateTableAsync<Recipe>();
+            _connection = DependencyService.Get<ISQLiteDb>().GetConnection();
+        }
+
+        protected override async void OnAppearing()
+        {
+			await _connection.CreateTableAsync<Recipe>();
+			
+			var recipes= await _connection.Table<Recipe>().ToListAsync();
+            recipesListView.ItemsSource = recipes;
+
+            base.OnAppearing();
         }
 
 		void OnAdd(object sender, System.EventArgs e)
