@@ -19,7 +19,10 @@ namespace XamUDemy.DataAccess
 			InitializeComponent();
 		}
 
-
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
 
 
         void OnDelete(object sender, System.EventArgs e)
