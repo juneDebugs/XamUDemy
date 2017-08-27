@@ -47,21 +47,29 @@ namespace XamUDemy.DataAccess
             throw new NotImplementedException();
         }
 
-        void OnUpdate(object sender, System.EventArgs e)
+        async void OnUpdate(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            var post = _posts[0];
+            post.Title += "UPDATED";
+
+			var content = JsonConvert.SerializeObject(post);
+            await _client.PutAsync(Url + "/" + post.Id, new StringContent(content));
         }
 
         async void OnAdd(object sender, System.EventArgs e)
         {
             var post = new Post { Title = "Title" + DateTime.Now.Ticks };
 
+			//This is how you add to postsListView
+			//We are Inserting an Index to ensure the new posts are on top first
+			//The placement here is KEY
+			//This gets executed first so the list is updated IMMEDIATELY then the server is updated
+			_posts.Insert(0, post);
+
+            //This is pusing the changes to the server
             var content = JsonConvert.SerializeObject(post);
             await _client.PostAsync(Url, new StringContent(content));
 
-            //This is how you add to postsListView
-            //We are Inserting an Index to ensure the new posts are on top first
-            _posts.Insert(0, post);
         }
 
     }
