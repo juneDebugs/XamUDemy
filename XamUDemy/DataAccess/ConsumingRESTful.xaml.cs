@@ -44,7 +44,14 @@ namespace XamUDemy.DataAccess
 
         void OnDelete(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            var post = _posts[0];
+
+            //This is removing the entry from the listView
+            _posts.Remove(post);
+
+            _client.DeleteAsync(Url + "/" + post.Id );
+
+            //Don't need to serialize because this post is not going to the body (listview) 
         }
 
         async void OnUpdate(object sender, System.EventArgs e)
