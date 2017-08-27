@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 using XamUDemy.Interface;
 using SQLite;
@@ -20,7 +19,7 @@ namespace XamUDemy.DataAccess
     public partial class RecipeSQLite : ContentPage
     {
         private SQLiteAsyncConnection _connection;
-        public ObservableCollection<Recipe> _recipes;
+        private ObservableCollection<Recipe> _recipes;
 
         public RecipeSQLite()
         {
@@ -35,7 +34,7 @@ namespace XamUDemy.DataAccess
 
             var recipes = await _connection.Table<Recipe>().ToListAsync();
             _recipes = new ObservableCollection<Recipe>(recipes);
-            recipesListView.ItemsSource = recipes;
+            recipesListView.ItemsSource = _recipes;
 
             base.OnAppearing();
         }
@@ -63,7 +62,6 @@ namespace XamUDemy.DataAccess
             await _connection.DeleteAsync(recipe);
 
             _recipes.Remove(recipe);
-
         }
     }
 }
