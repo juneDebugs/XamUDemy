@@ -48,9 +48,12 @@ namespace XamUDemy.DataAccess
             _recipes.Add(recipe);
         }
 
-        void OnUpdate(object sender, System.EventArgs e)
+        async void OnUpdate(object sender, System.EventArgs e)
         {
+            var recipe = _recipes[0];
+            recipe.Name += "UPDATED";
 
+            await _connection.UpdateAsync(recipe);
         }
 
         async void OnDelete(object sender, System.EventArgs e)
