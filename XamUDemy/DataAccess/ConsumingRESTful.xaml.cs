@@ -34,9 +34,11 @@ namespace XamUDemy.DataAccess
             var content= await _client.GetStringAsync(Url);
 
             //Deserialize the string
-            JsonConvert.DeserializeObject<List<Post>>(content);
+            var posts = JsonConvert.DeserializeObject<List<Post>>(content);
 
             //Intialize ObservableCollection
+            _posts = new ObservableCollection<Post>(posts);
+            postsListVIew.ItemSource = _posts;
 
             base.OnAppearing();
         }
