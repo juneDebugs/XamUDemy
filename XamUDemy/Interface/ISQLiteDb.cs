@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite;
 
-namespace XamUDemy.Pages
+namespace XamUDemy.Interface
 {
     public interface ISQLiteDb
     {

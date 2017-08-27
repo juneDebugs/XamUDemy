@@ -73,3 +73,14 @@
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.pdb
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.xml
 /Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/PCLStorage.Abstractions.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/PCLStorage.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/PCLStorage.Abstractions.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/PCLStorage.xml
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLite-net.pdb
+/Users/junecho/Projects/XamUDemy/iOS/bin/iPhoneSimulator/Debug/SQLite-net.xml

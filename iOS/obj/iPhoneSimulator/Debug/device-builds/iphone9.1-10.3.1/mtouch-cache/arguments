@@ -27,9 +27,23 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
+	/Users/junecho/Projects/XamUDemy/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/sqlite-net-pcl.1.4.118/lib/netstandard1.1/SQLite-net.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.bundle_green.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.bundle_green.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.core.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -327,9 +341,23 @@
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Forms.ImageCircle.1.8.1/lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll \
 	-r \
+	/Users/junecho/Projects/XamUDemy/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xam.Plugins.Settings.3.0.1/lib/Xamarin.iOS10/Plugin.Settings.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/sqlite-net-pcl.1.4.118/lib/netstandard1.1/SQLite-net.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.bundle_green.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.bundle_green.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.core.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll \
+	-r \
+	/Users/junecho/Projects/XamUDemy/packages/SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.5/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll \
 	-r \
 	/Users/junecho/Projects/XamUDemy/packages/Xamarin.Forms.2.3.4.231/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

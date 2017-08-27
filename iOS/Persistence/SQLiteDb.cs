@@ -4,6 +4,7 @@ using SQLite;
 using Xamarin.Forms;
 using XamUDemy.iOS.Persistence;
 using System.IO;
+using XamUDemy.Interface;
 
 [assembly: Dependency(typeof(SQLiteDb))]
 
