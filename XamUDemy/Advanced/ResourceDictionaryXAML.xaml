@@ -12,8 +12,10 @@
             <Color x:Key= "buttonBackgroundColor">Gray</Color>
 
             <Style x:Key= "button" TargetType= "Button">
-                <Setter Property= "BackgroundColor" 
-                        Value= "{StaticResource buttonBackgroundColor" />
+                <Setter Property= "BackgroundColor" Value= "{StaticResource buttonBackgroundColor" />
+                <Setter Property= "TextColor" Value= "White" />
+                <Setter Property= "BorderRadius" Value= "20" />
+                <Setter Property= "FontAttributes" Value= "Bold" />
             </Style>
         </ResourceDictionary>
 
