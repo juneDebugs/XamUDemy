@@ -10,6 +10,12 @@ namespace XamUDemy.Advanced
         public ResourceDictionaryXAML()
         {
             InitializeComponent();
+
+        }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
