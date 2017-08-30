@@ -14,9 +14,11 @@ namespace XamUDemy.Advanced
             InitializeComponent();
         }
 
-        void Handle_ValueChanged(object sender, Xamarin.Forms.ValueChangedEventArgs e)
+        void Handle_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            SliderValueChanged?.Invoke(this, e.NewValue);
+            MessagingCenter.Send(this, "SliderValueChanged", e.NewValue);
+
+            //SliderValueChanged?.Invoke(this, e.NewValue);
         }
     }
 }
