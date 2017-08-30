@@ -25,12 +25,11 @@
     <StackLayout
         Spacing= "20"
         VerticalOptions= "Center" >
+
+        <!--Notice that the first button uses STYLE and StaticResouce button -->
         <Button
-            Text= "Login"
-            BackgroundColor= "{StaticResource buttonBackgroundColor}"
-            TextColor= "White"
-            BorderRadius= "{StaticResource borderRadius}"
-            FontAttributes = "Bold" />
+            Text= "Login" Style= "{StaticResource button}" />
+        
          <Button
             Text= "Register"
             BackgroundColor= "{StaticResource buttonBackgroundColor}"
