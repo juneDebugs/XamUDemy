@@ -15,7 +15,13 @@ namespace XamUDemy.Advanced
         void OnClick(object sender, System.EventArgs e)
         {
             var page = new TargetPageXAML();
-            page.SliderValueChanged += OnSliderValueChanged;
+
+            //page.SliderValueChanged += OnSliderValueChanged;
+            //Instead of the code above, we are going to use Messaging Center
+            //Messaging Center is a HUB for messages 
+
+
+
             Navigation.PushAsync(page);
         }
 
