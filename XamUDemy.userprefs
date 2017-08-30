@@ -1,5 +1,15 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Advanced/MessagingCenterXAML.xaml.cs">
+    <Files>
+      <File FileName="XamUDemy/Advanced/DynamicResourcesXAML.xaml.cs" Line="22" Column="1" />
+      <File FileName="XamUDemy/Advanced/DynamicResourcesXAML.xaml" Line="39" Column="1" />
+      <File FileName="XamUDemy/App.xaml" Line="16" Column="1" />
+      <File FileName="XamUDemy/App.xaml.cs" Line="21" Column="48" />
+      <File FileName="XamUDemy/Advanced/ResourceDictionaryXAML.xaml" Line="19" Column="21" />
+      <File FileName="XamUDemy/Advanced/MessagingCenterXAML.xaml" Line="6" Column="1" />
+      <File FileName="XamUDemy/Advanced/MessagingCenterXAML.xaml.cs" Line="8" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
