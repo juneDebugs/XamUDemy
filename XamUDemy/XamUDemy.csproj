@@ -191,6 +191,9 @@
     <EmbeddedResource Include="Advanced\MessagingCenterXAML.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Advanced\TargetPageXAML.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -367,6 +370,9 @@
     </Compile>
     <Compile Include="Advanced\MessagingCenterXAML.xaml.cs">
       <DependentUpon>MessagingCenterXAML.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Advanced\TargetPageXAML.xaml.cs">
+      <DependentUpon>TargetPageXAML.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
