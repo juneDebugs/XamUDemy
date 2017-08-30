@@ -10,7 +10,14 @@
         <ResourceDictionary>
             <x:Int32 x:Key= "borderRadius">20</x:Int32>
             <Color x:Key= "buttonBackgroundColor">Gray</Color>
+
+            <Style x:Key= "button" TargetType= "Button">
+                <Setter Property= "BackgroundColor" 
+                        Value= "{StaticResource buttonBackgroundColor" />
+            </Style>
         </ResourceDictionary>
+
+
     </ContentPage.Resources>
 
     <StackLayout
