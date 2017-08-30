@@ -4,6 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="XamUDemy.Advanced.ResourceDictionaryXAML">
 
+   <!-- x:Int32 is part of Microsoft Xaml
+    All Standard .Net Types are available-->
     <ContenPage.Resources>
         <ResourceDictionary>
             <x:Int32 x:Key= "borderRadius">20</x:Int32>
