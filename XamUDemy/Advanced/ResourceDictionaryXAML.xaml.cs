@@ -15,7 +15,7 @@ namespace XamUDemy.Advanced
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            Resources["buttonBackGroundColor"] = Color.Pink;
         }
     }
 }

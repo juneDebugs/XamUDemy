@@ -6,12 +6,12 @@
 
    <!-- x:Int32 is part of Microsoft Xaml
     All Standard .Net Types are available-->
-    <ContenPage.Resources>
+    <ContentPage.Resources>
         <ResourceDictionary>
             <x:Int32 x:Key= "borderRadius">20</x:Int32>
             <Color x:Key= "buttonBackgroundColor">Gray</Color>
         </ResourceDictionary>
-    </ContenPage.Resources>
+    </ContentPage.Resources>
 
     <StackLayout
         Spacing= "20"
@@ -28,6 +28,7 @@
             TextColor= "White"
             BorderRadius= "{StaticResource borderRadius}"
             FontAttributes = "Bold" />
+        
     </StackLayout>	
  
 </ContentPage>

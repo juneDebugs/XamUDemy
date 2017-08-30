@@ -5,6 +5,7 @@ using XamUDemy.Lists;
 using XamUDemy.Navigations;
 using XamUDemy.DataAccess;
 using XamUDemy.FormsAndSettingPages;
+using XamUDemy.Advanced;
 
 namespace XamUDemy
 {
@@ -17,7 +18,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PickerWithNavigationXaml());
+            MainPage = new ResourceDictionaryXAML();
 
             //new NavigationPage(new MasterDetailContactXaml());
 
