@@ -18,7 +18,7 @@ namespace XamUDemy
         {
             InitializeComponent();
 
-            MainPage = new ResourceDictionaryXAML();
+            MainPage = new DynamicResourcesXAML();
 
             //new NavigationPage(new MasterDetailContactXaml());
 

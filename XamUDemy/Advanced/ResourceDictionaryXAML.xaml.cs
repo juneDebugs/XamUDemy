@@ -13,9 +13,5 @@ namespace XamUDemy.Advanced
 
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
-        {
-            Resources["buttonBackGroundColor"] = Color.Pink;
-        }
     }
 }

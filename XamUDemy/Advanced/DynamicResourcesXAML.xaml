@@ -1,5 +1,38 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamUDemy.Advanced.DynamicResourcesXAML">
-	<ContentPage.Content>
-	</ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XamUDemy.Advanced.DynamicResourcesXAML">
+
+  <!-- x:Int32 is part of Microsoft Xaml
+    All Standard .Net Types are available-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Int32 x:Key= "borderRadius">20</x:Int32>
+            <Color x:Key= "buttonBackgroundColor">Gray</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout
+        Spacing= "20"
+        VerticalOptions= "Center" >
+        <Button
+            Text= "Login"
+            BackgroundColor= "{DynamicResource buttonBackgroundColor}"
+            TextColor= "White"
+            BorderRadius= "{DynamicResource borderRadius}"
+            FontAttributes = "Bold" />
+         <Button
+            Text= "Register"
+            BackgroundColor= "{DynamicResource buttonBackgroundColor}"
+            TextColor= "White"
+            BorderRadius= "{DynamicResource borderRadius}"
+            FontAttributes = "Bold" />
+
+        <Button
+            Text= "Change Color"
+            Clicked= "Handle_Clicked" />
+        
+    </StackLayout>  
+ 
 </ContentPage>
