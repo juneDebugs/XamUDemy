@@ -11,5 +11,17 @@ namespace XamUDemy.Advanced
         {
             InitializeComponent();
         }
+
+        void OnClick(object sender, System.EventArgs e)
+        {
+            var page = new TargetPageXAML();
+            page.SliderValueChanged += OnSliderValueChanged;
+            Navigation.PushAsync(page);
+        }
+
+        private void OnSliderValueChanged(object source, double newValue)
+        {
+            label.Text = newValue.ToString();
+        }
     }
 }
