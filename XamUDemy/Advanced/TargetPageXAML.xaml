@@ -5,11 +5,11 @@
     x:Class="XamUDemy.Advanced.TargetPageXAML">
 
     <StackLayout>
-
-
-
-
-
+        <Slider
+            x:Name= "slider"
+            ValueChanged="Handle_ValueChanged" />
+        <Label
+            Text= "{Binding Source={x:Reference slider}, Path= Value}" />
     </StackLayout>
     
 </ContentPage>
