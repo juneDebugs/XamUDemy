@@ -1,26 +1,20 @@
 ﻿<Properties StartupConfiguration="{095D38EB-7EA5-41F1-8CA0-7A495E35A690}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Advanced/TargetPageXAML.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamUDemy/Pages/ActivityIndicatorPage.xaml">
     <Files>
-      <File FileName="XamUDemy/Advanced/DynamicResourcesXAML.xaml.cs" Line="22" Column="1" />
-      <File FileName="XamUDemy/Advanced/DynamicResourcesXAML.xaml" Line="39" Column="1" />
-      <File FileName="XamUDemy/App.xaml" Line="16" Column="1" />
-      <File FileName="XamUDemy/App.xaml.cs" Line="21" Column="48" />
-      <File FileName="XamUDemy/Advanced/ResourceDictionaryXAML.xaml" Line="19" Column="21" />
-      <File FileName="XamUDemy/Advanced/MessagingCenterXAML.xaml" Line="6" Column="1" />
-      <File FileName="XamUDemy/Advanced/MessagingCenterXAML.xaml.cs" Line="8" Column="26" />
-      <File FileName="XamUDemy/Advanced/TargetPageXAML.xaml" Line="6" Column="1" />
-      <File FileName="XamUDemy/Advanced/TargetPageXAML.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Pages/ActivityIndicatorPage.xaml" Line="5" Column="51" />
+      <File FileName="XamUDemy/Pages/ActivityIndicatorPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamUDemy/Pages/AirBnbListViewPage.xaml" Line="47" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/junecho/Projects/XamUDemy/XamUDemy/Images/EmbeddedImages.xaml" relfile="XamUDemy/Images/EmbeddedImages.xaml" line="2" column="1" />
-      <Breakpoint file="/Users/junecho/Projects/XamUDemy/XamUDemy/Lists/ListViewXamlViewCell.xaml" relfile="XamUDemy/Lists/ListViewXamlViewCell.xaml" line="8" column="1" />
-      <Breakpoint file="/Users/junecho/Projects/XamUDemy/XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" relfile="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" line="20" column="1" />
+      <Breakpoint enabled="false" file="/Users/JuneCho/Projects/XamUDemy/XamUDemy/Images/EmbeddedImages.xaml" relfile="XamUDemy/Images/EmbeddedImages.xaml" line="2" column="1" />
+      <Breakpoint file="/Users/JuneCho/Projects/XamUDemy/XamUDemy/Lists/ListViewXamlViewCell.xaml" relfile="XamUDemy/Lists/ListViewXamlViewCell.xaml" line="8" column="1" />
+      <Breakpoint file="/Users/JuneCho/Projects/XamUDemy/XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" relfile="XamUDemy/FormsAndSettingPages/PickerWithNavigationXaml.xaml" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamUDemy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8D55B962-E338-45AC-8B37-EA7B0F3EC530" />
+  <MonoDevelop.Ide.ItemProperties.XamUDemy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.661D6C1C-85D0-4E8B-AC93-A20ABA0A7F4D" />
   <MultiItemStartupConfigurations />
 </Properties>
